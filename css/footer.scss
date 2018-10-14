@@ -1,0 +1,13 @@
+@import 'theme';
+
+footer {
+    .footer {
+        height: 516px;
+        background-color:color(primary);
+    }
+    .footer__copyright {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}

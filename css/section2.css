@@ -1,0 +1,120 @@
+body, html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Arial';
+  margin: 0;
+}
+
+body a {
+  text-decoration: none;
+  color: white;
+}
+
+body ul, body li {
+  list-style-type: none;
+}
+
+body #bg {
+  -webkit-box-flex: display;
+      -ms-flex: display;
+          flex: display;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+body #bg2 {
+  position: absolute;
+  top: 667px;
+}
+
+main h2.section2__header--h2 {
+  margin-top: 18px;
+  margin-left: 24px;
+}
+
+main .section2 {
+  padding: 25px 45px 25px 45px;
+  margin: 1em auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 667px;
+  position: relative;
+}
+
+@media (min-width: 840px) {
+  main .section2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (min-width: 768px) {
+  main .section2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+main .section2 .section2__img {
+  margin-top: 20px;
+}
+
+main .section2 .section2__text {
+  margin-top: 14px;
+}
+
+main .section2 .section2__text h2 {
+  color: #484848;
+}
+
+main .section2 .section2__text h6 {
+  color: #777777;
+  margin: 10px;
+}
+
+main .section2 .dot {
+  width: 67px;
+  height: 67px;
+  background-color: #FFDD8A;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -1;
+}
+
+main .section2 .section2__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .section2 .section2__icons--icon {
+  margin-top: 29px;
+  width: 44px;
+  line-height: 17px;
+}
+/*# sourceMappingURL=section2.css.map */

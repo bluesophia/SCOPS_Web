@@ -1,0 +1,108 @@
+@import 'theme';
+
+main {
+    @include desktop {
+        display: grid;
+        grid-template-columns: 50% auto;
+        grid-template-areas:
+            "section card"
+    }
+    @include tablet {
+        display: grid;
+        grid-template-columns: 70% auto;
+        grid-template-areas:
+            "section card"
+    }
+    //section1
+    .section1 {
+        padding: $padding;
+        margin: 1em auto;
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        @include desktop {
+            flex-direction: row;
+        }
+        @include tablet {
+            flex-direction: row;
+        }
+        .btn {
+            background-color: color(accent);
+            border-radius:30px;
+            padding: 10px 40px;
+        }
+        .section1__text{
+            margin-bottom: 50px;
+            // @include desktop {
+            //     grid-area: section;
+            //     height: fit-content;
+            //     align-self: left;
+            //     margin: 1em;
+            // }
+            // @include tablet {
+            //     grid-area: section;
+            //     height: fit-content;
+            //     align-self: left;
+            //     text-align:left;
+            //     font-size: 0em;
+            //     margin: 1em;
+            // }
+            
+            text-align: center;
+            // border: 1px solid black;
+            // height: 587px;
+            h1 {
+                color:color(grey1);
+                font-size:38px;
+                font-weight: bold;
+                margin-bottom: 18px;
+            }
+            h6 {
+                color:color(grey2);
+                margin-bottom: 20px;
+            }
+            p {
+                color:white;
+            }
+        }
+        .section1__img{   
+             
+            display:flex;
+            justify-content: center;
+            margin:0;
+
+            // @include desktop {
+            //     grid-area: card;
+            //     height: fit-content;
+            //     // align-self: right;
+            //     width:528px;
+            //     margin: 1em;
+            // }
+            // @include tablet {
+            //     grid-area: card;
+            //     height: fit-content;
+            //     // align-self: right;
+            //     justify-content: space-between;
+            //     height: 400px;
+            //     margin: 0;
+            // }
+
+            img {
+
+                // @include desktop {
+                //     height: 400px;
+                // }
+                // @include tablet {
+                //     height: 286px;
+                // }
+
+                height: 210px;
+
+            }
+        }
+    }
+    .section2 {
+        padding: $padding;
+    }
+    
+}

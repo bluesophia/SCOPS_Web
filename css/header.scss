@@ -1,0 +1,28 @@
+@import 'theme';
+
+header {
+    height: 80px;
+    padding: $padding;
+
+    .logo{
+        display:flex;
+        justify-content:space-between;
+    }
+    #logo__logo{
+
+        // @include desktop {
+        //     // background-image: url('../assets/img/logo.png');
+        // }
+        // @include tablet {
+        //     // margin-left:265px;
+        //     // margin:  0  0  0 10em;
+        //     // background-image: url('../assets/img/logo.png');
+        // }
+        
+        width: 30px;
+    }
+    #logo__menu{
+        width: 30px;
+    }
+}
+

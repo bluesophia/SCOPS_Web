@@ -1,0 +1,51 @@
+body, html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Arial';
+  margin: 0;
+}
+
+body a {
+  text-decoration: none;
+  color: white;
+}
+
+body ul, body li {
+  list-style-type: none;
+}
+
+body #bg {
+  -webkit-box-flex: display;
+      -ms-flex: display;
+          flex: display;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+body #bg2 {
+  position: absolute;
+  top: 667px;
+}
+
+footer .footer {
+  height: 516px;
+  background-color: #55C1AE;
+}
+
+footer .footer__copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+/*# sourceMappingURL=footer.css.map */

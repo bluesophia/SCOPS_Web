@@ -1,0 +1,56 @@
+@import 'theme';
+main{
+    h2.section2__header--h2 {
+        margin-top: 18px;
+        margin-left: 24px;
+    }
+    .section2 {
+        padding: $padding;
+        margin: 1em auto;
+        display:flex;
+        flex-direction: column;
+        height:667px;
+        position: relative;
+
+        @include desktop {
+            display:flex;
+            flex-direction: column;
+        }
+        @include tablet {
+            display:flex;
+            flex-direction: column;
+        }
+        .section2__img {
+            margin-top: 20px;
+        }
+        .section2__text {
+            margin-top:14px;
+            h2{
+                color:color(grey1);
+            }
+            h6 {
+                color:color(grey2);
+                margin: 10px;
+            }
+        }
+        .dot {
+            width: 67px;
+            height: 67px;
+            background-color: #FFDD8A;
+            border-radius: 50%;
+            position: absolute;
+            z-index: -1;
+        } 
+        .section2__icons {
+            display: flex;
+            justify-content: space-between;
+            
+        }
+        .section2__icons--icon {
+            margin-top: 29px;
+            width: 44px;
+            line-height: 17px;
+        }
+    }    
+    
+}
