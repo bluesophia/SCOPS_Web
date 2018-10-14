@@ -44,12 +44,13 @@ body #bg3-1 {
   top: 1956px;
 }
 
-main h2.section3__header--h2 {
-  margin-top: 53px;
+main h2.section4__header--h2 {
+  margin-top: 30px;
   margin-left: 28px;
+  line-height: 1.1;
 }
 
-main .section3 {
+main .section4 {
   padding: 25px 45px 25px 45px;
   margin: 1em auto;
   display: -webkit-box;
@@ -64,7 +65,7 @@ main .section3 {
 }
 
 @media (min-width: 840px) {
-  main .section3 {
+  main .section4 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -76,7 +77,7 @@ main .section3 {
 }
 
 @media (min-width: 768px) {
-  main .section3 {
+  main .section4 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -87,34 +88,34 @@ main .section3 {
   }
 }
 
-main .section3 .section3__header {
+main .section4 .section4__header {
   margin-top: 20px;
 }
 
-main .section3 .section3__img {
-  margin-top: 30px;
+main .section4 .section4__img {
+  padding: 10px;
 }
 
-main .section3 .section3__text {
+main .section4 .section4__text {
   margin-top: 15px;
   margin-left: 15px;
 }
 
-main .section3 .section3__text h2 {
+main .section4 .section4__text h2 {
   color: #484848;
 }
 
-main .section3 .section3__text h6 {
+main .section4 .section4__text h6 {
   color: #777777;
   margin: 10px;
 }
 
-main .section3 .dot {
-  width: 97px;
-  height: 97px;
+main .section4 .dot {
+  width: 68px;
+  height: 68px;
   background-color: #FFDD8A;
   border-radius: 50%;
   position: absolute;
   z-index: -1;
 }
-/*# sourceMappingURL=section3.css.map */
+/*# sourceMappingURL=section4.css.map */

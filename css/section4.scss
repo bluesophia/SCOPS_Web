@@ -1,10 +1,11 @@
 @import 'theme';
 main{
-    h2.section3__header--h2 {
-        margin-top: 53px;
+    h2.section4__header--h2 {
+        margin-top: 30px;
         margin-left: 28px;
+        line-height: 1.1;
     }
-    .section3 {
+    .section4 {
         padding: $padding;
         margin: 1em auto;
         display:flex;
@@ -20,14 +21,14 @@ main{
             display:flex;
             flex-direction: column;
         }
-        .section3__header {
+        .section4__header {
             margin-top: 20px;
             
         }
-        .section3__img {
-            margin-top: 30px;
+        .section4__img {
+            padding:10px;
         }
-        .section3__text {
+        .section4__text {
             margin-top:15px;
             margin-left:15px;
             h2{
@@ -39,8 +40,8 @@ main{
             }
         }
         .dot {
-            width: 97px;
-            height: 97px;
+            width: 68px;
+            height: 68px;
             background-color: #FFDD8A;
             border-radius: 50%;
             position: absolute;
