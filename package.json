@@ -1,0 +1,8 @@
+{
+  "name": "SCOPS_Web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/bluesophia/SCOPS_Web.git",
+  "author": "Sohee Im <imsophia0313@gmail.com>",
+  "license": "MIT"
+}

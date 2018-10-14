@@ -1,0 +1,84 @@
+body, html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Arial';
+  margin: 0;
+}
+
+body a {
+  text-decoration: none;
+  color: white;
+}
+
+body #bg {
+  -webkit-box-flex: display;
+      -ms-flex: display;
+          flex: display;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+body header {
+  height: 80px;
+  padding: 25px 45px 25px 45px;
+}
+
+body header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body header #logo__logo {
+  width: 30px;
+}
+
+body header #logo__menu {
+  width: 30px;
+}
+
+main section {
+  padding: 25px 45px 25px 45px;
+  margin: 1em auto;
+}
+
+main section .btn {
+  background-color: #FC5C71;
+  border-radius: 30px;
+  padding: 10px 40px;
+}
+
+main section.section1 {
+  text-align: center;
+  height: 587px;
+}
+
+main section.section1 h1 {
+  color: #484848;
+  font-size: 38px;
+  margin-bottom: 18px;
+}
+
+main section.section1 h6 {
+  color: #777777;
+  margin-bottom: 20px;
+}
+
+main section.section1 p {
+  color: white;
+}
+
+main section.section1 img {
+  margin-top: 50px;
+}
+/*# sourceMappingURL=main.css.map */
