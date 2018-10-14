@@ -34,6 +34,16 @@ body #bg2 {
   top: 667px;
 }
 
+body #bg3 {
+  position: absolute;
+  top: 1334px;
+}
+
+body #bg3-1 {
+  position: absolute;
+  top: 1956px;
+}
+
 footer .footer {
   height: 516px;
   background-color: #55C1AE;

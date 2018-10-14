@@ -33,4 +33,14 @@ body #bg2 {
   position: absolute;
   top: 667px;
 }
+
+body #bg3 {
+  position: absolute;
+  top: 1334px;
+}
+
+body #bg3-1 {
+  position: absolute;
+  top: 1956px;
+}
 /*# sourceMappingURL=theme.css.map */

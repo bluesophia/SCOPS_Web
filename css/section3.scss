@@ -1,0 +1,50 @@
+@import 'theme';
+main{
+    h2.section3__header--h2 {
+        margin-top: 53px;
+        margin-left: 28px;
+    }
+    .section3 {
+        padding: $padding;
+        margin: 1em auto;
+        display:flex;
+        flex-direction: column;
+        height:667px;
+        position: relative;
+
+        @include desktop {
+            display:flex;
+            flex-direction: column;
+        }
+        @include tablet {
+            display:flex;
+            flex-direction: column;
+        }
+        .section3__header {
+            margin-top: 20px;
+            
+        }
+        .section3__img {
+            margin-top: 30px;
+        }
+        .section3__text {
+            margin-top:15px;
+            h2{
+                color:color(grey1);
+            }
+            h6 {
+                color:color(grey2);
+                margin: 10px;
+            }
+        }
+        .dot {
+            width: 97px;
+            height: 97px;
+            background-color: #FFDD8A;
+            border-radius: 50%;
+            position: absolute;
+            z-index: -1;
+        } 
+    }    
+    
+}
