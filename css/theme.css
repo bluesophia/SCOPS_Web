@@ -43,4 +43,15 @@ body #bg3-1 {
   position: absolute;
   top: 1956px;
 }
+
+body #bg5 {
+  position: absolute;
+  top: 2670px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
 /*# sourceMappingURL=theme.css.map */

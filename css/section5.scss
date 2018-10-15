@@ -1,0 +1,30 @@
+@import 'theme';
+
+main {
+    .section5 {
+        padding: $padding;
+        margin: 1em auto;
+        display:flex;
+        flex-direction: column;
+        height:667px;
+        position: relative;
+        justify-content: center;
+        .section5__img {
+            padding:30px;
+            // margin-top:40px;
+        }
+        .section5__text {
+            margin-top: -86px;
+            margin-left: 66px;
+            text-align: center;
+            width: 50%;
+            // display: flex;
+            // justify-content: center;
+            h4{
+                color: #fff;
+                line-height: 1.4;
+            }
+        }
+        
+    }
+}

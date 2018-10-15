@@ -55,25 +55,36 @@ body #bg5 {
           justify-content: flex-start;
 }
 
-header {
-  height: 80px;
+main .section5 {
   padding: 25px 45px 25px 45px;
-}
-
-header .logo {
+  margin: 1em auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 667px;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-header #logo__logo {
-  width: 30px;
+main .section5 .section5__img {
+  padding: 30px;
 }
 
-header #logo__menu {
-  width: 30px;
+main .section5 .section5__text {
+  margin-top: -86px;
+  margin-left: 66px;
+  text-align: center;
+  width: 50%;
 }
-/*# sourceMappingURL=header.css.map */
+
+main .section5 .section5__text h4 {
+  color: #fff;
+  line-height: 1.4;
+}
+/*# sourceMappingURL=section5.css.map */

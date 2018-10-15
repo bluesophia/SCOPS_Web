@@ -44,6 +44,17 @@ body #bg3-1 {
   top: 1956px;
 }
 
+body #bg5 {
+  position: absolute;
+  top: 2670px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
 footer .footer {
   height: 516px;
   background-color: #55C1AE;
