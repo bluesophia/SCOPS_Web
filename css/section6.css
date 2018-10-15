@@ -56,12 +56,14 @@ body #bg5 {
           justify-content: flex-start;
 }
 
-main h2.section2__header--h2 {
-  margin-top: 18px;
-  margin-left: 24px;
+main h2.section6__header--h2 {
+  margin-top: 53px;
+  margin-left: 28px;
+  font-size: 1.7rem;
+  line-height: 1.5;
 }
 
-main .section2 {
+main .section6 {
   padding: 25px 45px 25px 45px;
   margin: 1em auto;
   display: -webkit-box;
@@ -76,7 +78,7 @@ main .section2 {
 }
 
 @media (min-width: 840px) {
-  main .section2 {
+  main .section6 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -88,7 +90,7 @@ main .section2 {
 }
 
 @media (min-width: 768px) {
-  main .section2 {
+  main .section6 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -99,44 +101,52 @@ main .section2 {
   }
 }
 
-main .section2 .section2__img {
-  margin-top: 20px;
+main .section6 span {
+  color: blue;
+  margin-right: 20px;
 }
 
-main .section2 .section2__text {
-  margin-top: 14px;
+main .section6 .section6__img {
+  margin-top: 30px;
 }
 
-main .section2 .section2__text h2 {
+main .section6 .section6__text {
+  margin-top: 15px;
+  margin-left: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .section6 .section6__text h2 {
   color: #484848;
 }
 
-main .section2 .section2__text h6 {
+main .section6 .section6__text h6 {
   color: #777777;
   margin: 10px;
 }
 
-main .section2 .dot {
-  width: 67px;
-  height: 67px;
-  background-color: #FFDD8A;
-  border-radius: 50%;
-  position: absolute;
-  z-index: -1;
-}
-
-main .section2 .section2__icons {
+main .section6 .section6__text ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-main .section2 .section2__icons--icon {
-  margin-top: 29px;
-  width: 44px;
-  line-height: 17px;
+main .section6 .dot {
+  width: 97px;
+  height: 97px;
+  background-color: #FFDD8A;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 20px;
+  z-index: -1;
 }
-/*# sourceMappingURL=section2.css.map */
+/*# sourceMappingURL=section6.css.map */

@@ -14,6 +14,7 @@ body a {
 
 body ul, body li {
   list-style-type: none;
+  padding: 0;
 }
 
 body #bg {
