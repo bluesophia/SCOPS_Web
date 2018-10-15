@@ -855,6 +855,21 @@ main h2.section6__header--h2 {
   line-height: 1.5;
 }
 
+main .section6__ul {
+  margin-top: 20px;
+}
+
+main .section6__ul__il {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .section6__ul__p {
+  font-size: 12px;
+  margin-top: -10px;
+}
+
 main .section6 {
   padding: 25px 45px 25px 45px;
   margin: 1em auto;
@@ -893,18 +908,23 @@ main .section6 {
   }
 }
 
+main .section6 .section6__header {
+  margin-top: -80px;
+}
+
 main .section6 span {
-  color: blue;
-  margin-right: 20px;
+  background-color: #FFDD8A;
+  display: inline-block;
+  margin-right: 16px;
+  width: 11px;
+  height: 3px;
 }
 
 main .section6 .section6__img {
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 main .section6 .section6__text {
-  margin-top: 15px;
-  margin-left: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -930,6 +950,11 @@ main .section6 .section6__text ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  font-size: 12px;
+}
+
+main .section6 .section6__text .section6__ul--yellowdashed {
+  margin-top: 48px;
 }
 
 main .section6 .dot {
@@ -940,5 +965,11 @@ main .section6 .dot {
   position: absolute;
   margin-top: 20px;
   z-index: -1;
+}
+
+main .section6 .btn {
+  background-color: #FC5C71;
+  border-radius: 30px;
+  padding: 10px 30px;
 }
 /*# sourceMappingURL=main.css.map */
