@@ -85,8 +85,14 @@ body #bg5 {
 }
 
 main h2.section3__header--h2 {
-  margin-top: 53px;
   margin-left: 28px;
+  padding-right: 10px;
+}
+
+@media (min-width: 768px) {
+  main h2.section3__header--h2 {
+    font-size: 28px;
+  }
 }
 
 main .section3 {
@@ -116,13 +122,32 @@ main .section3 {
 
 @media (min-width: 768px) {
   main .section3 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
+    height: 472px;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+main .section3 .section3__ul {
+  margin-top: 46px;
+}
+
+@media (min-width: 768px) {
+  main .section3 .section3__ul {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 366px;
+    margin-top: 0;
   }
 }
 
@@ -132,6 +157,13 @@ main .section3 .section3__header {
 
 main .section3 .section3__img {
   margin-top: 30px;
+}
+
+@media (min-width: 768px) {
+  main .section3 .section3__img {
+    width: 292px;
+    margin-top: 0;
+  }
 }
 
 main .section3 .section3__text {
@@ -148,12 +180,56 @@ main .section3 .section3__text h6 {
   margin: 10px;
 }
 
+@media (min-width: 768px) {
+  main .section3 .section3__text h6 {
+    line-height: 1.4;
+    font-size: 14px;
+    margin-bottom: 18px;
+    margin-left: 28px;
+  }
+}
+
+@media (min-width: 768px) {
+  main .section3 .section3__text {
+    margin-top: 15px;
+    margin-left: 0;
+  }
+}
+
+main .section3 .section3__ul__list {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  main .section3 .section3__ul__list {
+    display: block;
+    color: #777777;
+    font-size: 12px;
+    margin-left: 28px;
+    margin-right: 12px;
+  }
+}
+
+@media (min-width: 768px) {
+  main .section3 .section3__ul__list li {
+    margin-bottom: 10px;
+  }
+}
+
 main .section3 .dot {
   width: 97px;
   height: 97px;
   background-color: #FFDD8A;
   border-radius: 50%;
   position: absolute;
+  margin-top: -38px;
   z-index: -1;
+}
+
+@media (min-width: 768px) {
+  main .section3 .dot {
+    width: 72px;
+    height: 72px;
+  }
 }
 /*# sourceMappingURL=section3.css.map */

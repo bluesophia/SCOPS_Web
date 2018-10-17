@@ -3,6 +3,9 @@ main{
     h2.section2__header--h2 {
         margin-top: 18px;
         margin-left: 24px;
+        @include tablet{
+            font-size: 28px;
+        }
     }
     .section2 {
         padding: $padding;
@@ -10,7 +13,6 @@ main{
         flex-direction: column;
         height:667px;
         position: relative;
-       
 
         @include desktop {
             display:flex;
@@ -20,7 +22,7 @@ main{
             height: 472px;
             display: flex;
             flex-direction: row;
-            justify-content: space-around;
+            justify-content: space-between;
             align-items: center;
         }
         .section2__headergroup {
@@ -93,7 +95,7 @@ main{
             h6 {
                 @include tablet {
                     color: color(grey1);
-                    font-size:18px;
+                    // font-size:18px;
                 }
             }
             p {
