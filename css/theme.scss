@@ -93,6 +93,18 @@ body {
         top:2668px;
         display: flex;
         justify-content: flex-start;
+        background: url('../assets/img/mobile_section5img.svg');
+        background-repeat: no-repeat;
+        width: 375px;
+        height: 696px;
+        @include tablet {
+            background: url('../assets/img/tablet_section5img.svg');
+            background-repeat: no-repeat;
+            position: absolute;
+            top: 2008px;
+            width: 768px;
+            height: 691px;
+        }
     }
     
 }

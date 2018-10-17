@@ -82,6 +82,21 @@ body #bg5 {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  background: url("../assets/img/mobile_section5img.svg");
+  background-repeat: no-repeat;
+  width: 375px;
+  height: 696px;
+}
+
+@media (min-width: 768px) {
+  body #bg5 {
+    background: url("../assets/img/tablet_section5img.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 2008px;
+    width: 768px;
+    height: 691px;
+  }
 }
 
 body, html {
@@ -168,6 +183,21 @@ body #bg5 {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  background: url("../assets/img/mobile_section5img.svg");
+  background-repeat: no-repeat;
+  width: 375px;
+  height: 696px;
+}
+
+@media (min-width: 768px) {
+  body #bg5 {
+    background: url("../assets/img/tablet_section5img.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 2008px;
+    width: 768px;
+    height: 691px;
+  }
 }
 
 header {
@@ -286,6 +316,21 @@ body #bg5 {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  background: url("../assets/img/mobile_section5img.svg");
+  background-repeat: no-repeat;
+  width: 375px;
+  height: 696px;
+}
+
+@media (min-width: 768px) {
+  body #bg5 {
+    background: url("../assets/img/tablet_section5img.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 2008px;
+    width: 768px;
+    height: 691px;
+  }
 }
 
 main .section1__container {
@@ -486,6 +531,21 @@ body #bg5 {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  background: url("../assets/img/mobile_section5img.svg");
+  background-repeat: no-repeat;
+  width: 375px;
+  height: 696px;
+}
+
+@media (min-width: 768px) {
+  body #bg5 {
+    background: url("../assets/img/tablet_section5img.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 2008px;
+    width: 768px;
+    height: 691px;
+  }
 }
 
 main h2.section2__header--h2 {
@@ -786,6 +846,21 @@ body #bg5 {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  background: url("../assets/img/mobile_section5img.svg");
+  background-repeat: no-repeat;
+  width: 375px;
+  height: 696px;
+}
+
+@media (min-width: 768px) {
+  body #bg5 {
+    background: url("../assets/img/tablet_section5img.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 2008px;
+    width: 768px;
+    height: 691px;
+  }
 }
 
 main h2.section3__header--h2 {
@@ -1022,6 +1097,21 @@ body #bg5 {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  background: url("../assets/img/mobile_section5img.svg");
+  background-repeat: no-repeat;
+  width: 375px;
+  height: 696px;
+}
+
+@media (min-width: 768px) {
+  body #bg5 {
+    background: url("../assets/img/tablet_section5img.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 2008px;
+    width: 768px;
+    height: 691px;
+  }
 }
 
 main h2.section4__header--h2 {
@@ -1264,6 +1354,21 @@ body #bg5 {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  background: url("../assets/img/mobile_section5img.svg");
+  background-repeat: no-repeat;
+  width: 375px;
+  height: 696px;
+}
+
+@media (min-width: 768px) {
+  body #bg5 {
+    background: url("../assets/img/tablet_section5img.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 2008px;
+    width: 768px;
+    height: 691px;
+  }
 }
 
 main .section5 {
@@ -1282,12 +1387,57 @@ main .section5 {
           justify-content: center;
 }
 
+@media (min-width: 768px) {
+  main .section5 {
+    height: 512px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+  main .section5 .section5__ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 34px;
+  }
+}
+
 main .section5 .section5__img {
   padding: 24px;
 }
 
+@media (min-width: 768px) {
+  main .section5 .section5__img {
+    width: 570px;
+    height: 226px;
+  }
+}
+
+main .section5 .section5__backgroundimg {
+  background: url("../assets/img/section5img.svg");
+  background-repeat: no-repeat;
+  height: 422px;
+}
+
+@media (min-width: 768px) {
+  main .section5 .section5__backgroundimg {
+    background: url("../assets/img/section5img_tablet.svg");
+    background-repeat: no-repeat;
+  }
+}
+
 main .section5 .section5__text {
-  margin-top: 44px;
+  margin-top: 100px;
   margin-left: 66px;
   text-align: center;
   width: 50%;
@@ -1296,6 +1446,21 @@ main .section5 .section5__text {
 main .section5 .section5__text h4 {
   color: #fff;
   line-height: 1.4;
+}
+
+@media (min-width: 768px) {
+  main .section5 .section5__text h4 {
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 768px) {
+  main .section5 .section5__text {
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 300px;
+    margin-bottom: 8px;
+  }
 }
 
 body, html {
@@ -1382,6 +1547,21 @@ body #bg5 {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  background: url("../assets/img/mobile_section5img.svg");
+  background-repeat: no-repeat;
+  width: 375px;
+  height: 696px;
+}
+
+@media (min-width: 768px) {
+  body #bg5 {
+    background: url("../assets/img/tablet_section5img.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 2008px;
+    width: 768px;
+    height: 691px;
+  }
 }
 
 main h2.section6__header--h2 {
@@ -1598,6 +1778,21 @@ body #bg5 {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  background: url("../assets/img/mobile_section5img.svg");
+  background-repeat: no-repeat;
+  width: 375px;
+  height: 696px;
+}
+
+@media (min-width: 768px) {
+  body #bg5 {
+    background: url("../assets/img/tablet_section5img.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 2008px;
+    width: 768px;
+    height: 691px;
+  }
 }
 
 .footer {
