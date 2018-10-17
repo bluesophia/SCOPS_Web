@@ -19,6 +19,7 @@ main {
             justify-content: space-around;
             height: 432px;
             align-items: center;
+            padding-bottom: 110px;
         }
         .btn {
             background-color: color(accent);
@@ -40,6 +41,7 @@ main {
                 font-weight: bold;
                 margin-bottom: 18px;
                 @include tablet{
+                    color:color(grey1);
                     font-size: 2rem;
                 }
             }

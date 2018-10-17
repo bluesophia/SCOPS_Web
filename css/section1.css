@@ -123,6 +123,7 @@ main .section1 {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    padding-bottom: 110px;
   }
 }
 
@@ -157,6 +158,7 @@ main .section1 .section1__text h1 {
 
 @media (min-width: 768px) {
   main .section1 .section1__text h1 {
+    color: #484848;
     font-size: 2rem;
   }
 }
