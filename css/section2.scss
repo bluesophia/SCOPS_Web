@@ -3,8 +3,9 @@ main{
     h2.section2__header--h2 {
         margin-top: 18px;
         margin-left: 24px;
+        font-size: $h2;
         @include tablet{
-            font-size: 28px;
+            font-size: $h2;
         }
     }
     .section2 {
@@ -95,7 +96,6 @@ main{
             h6 {
                 @include tablet {
                     color: color(grey1);
-                    // font-size:18px;
                 }
             }
             p {

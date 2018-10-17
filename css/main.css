@@ -491,6 +491,7 @@ body #bg5 {
 main h2.section2__header--h2 {
   margin-top: 18px;
   margin-left: 24px;
+  font-size: 28px;
 }
 
 @media (min-width: 768px) {
@@ -789,6 +790,7 @@ body #bg5 {
 
 main h2.section3__header--h2 {
   margin-left: 28px;
+  font-size: 28px;
   padding-right: 10px;
 }
 
@@ -825,7 +827,7 @@ main .section3 {
 
 @media (min-width: 768px) {
   main .section3 {
-    height: 472px;
+    height: 512px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -1023,9 +1025,16 @@ body #bg5 {
 }
 
 main h2.section4__header--h2 {
-  margin-top: 30px;
+  margin-top: 42px;
   margin-left: 28px;
   line-height: 1.1;
+  font-size: 28px;
+}
+
+@media (min-width: 768px) {
+  main h2.section4__header--h2 {
+    line-height: 1.3;
+  }
 }
 
 main .section4 {
@@ -1041,27 +1050,22 @@ main .section4 {
   position: relative;
 }
 
-@media (min-width: 840px) {
-  main .section4 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-
 @media (min-width: 768px) {
   main .section4 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 512px;
   }
 }
 
@@ -1071,11 +1075,19 @@ main .section4 .section4__header {
 
 main .section4 .section4__img {
   padding: 10px;
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  main .section4 .section4__img {
+    width: 320px;
+  }
 }
 
 main .section4 .section4__text {
   margin-top: 15px;
   margin-left: 15px;
+  margin-bottom: 18px;
 }
 
 main .section4 .section4__text h2 {
@@ -1087,13 +1099,85 @@ main .section4 .section4__text h6 {
   margin: 10px;
 }
 
+@media (min-width: 768px) {
+  main .section4 .section4__text h6 {
+    line-height: 1.4;
+    font-size: 14px;
+    margin-bottom: 18px;
+  }
+}
+
+main .section4 .section4__ul {
+  margin-top: 46px;
+}
+
+@media (min-width: 768px) {
+  main .section4 .section4__ul {
+    display: block;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 338px;
+    margin-top: 28px;
+    margin-left: 20px;
+  }
+}
+
+main .section4 .section4__ul--yellowdashed {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  main .section4 .section4__ul--yellowdashed {
+    display: block;
+    margin-top: 28px;
+    margin-left: 28px;
+  }
+}
+
+main .section4 .section4__ul__il {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .section4 .section4__ul__p {
+  font-size: 12px;
+  margin-top: -10px;
+}
+
+@media (min-width: 768px) {
+  main .section4 .section4__ul__p {
+    color: #777777;
+  }
+}
+
 main .section4 .dot {
   width: 68px;
   height: 68px;
   background-color: #FFDD8A;
   border-radius: 50%;
+  margin-top: -40px;
   position: absolute;
   z-index: -1;
+}
+
+@media (min-width: 768px) {
+  main .section4 .dot {
+    width: 52px;
+    height: 52px;
+    margin-top: -32px;
+    margin-left: 63px;
+  }
+}
+
+main .section4 span {
+  background-color: #FFDD8A;
+  display: inline-block;
+  margin-right: 16px;
+  width: 11px;
+  height: 3px;
 }
 
 body, html {
@@ -1303,7 +1387,7 @@ body #bg5 {
 main h2.section6__header--h2 {
   margin-top: 53px;
   margin-left: 28px;
-  font-size: 1.7rem;
+  font-size: 28px;
   line-height: 1.5;
 }
 
@@ -1420,7 +1504,7 @@ main .section6 .dot {
   background-color: #FFDD8A;
   border-radius: 50%;
   position: absolute;
-  margin-top: 20px;
+  margin-top: 5px;
   z-index: -1;
 }
 

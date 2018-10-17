@@ -3,10 +3,11 @@ main{
     h2.section3__header--h2 {
         // margin-top: 53px;
         margin-left: 28px;
+        font-size: $h2;
         // width: 97px;
         padding-right: 10px;
         @include tablet{
-            font-size: 28px;
+            font-size: $h2;
         }
     }
     .section3 {
@@ -21,18 +22,11 @@ main{
             flex-direction: column;
         }
         @include tablet {
-            height: 472px;
+            height: 512px;
             flex-direction: row;
             align-items: center;
             justify-content: space-between;
         }
-        // @include tablet {
-        //     height: 472px;
-        //     display: flex;
-        //     flex-direction: row;
-        //     justify-content: space-around;
-        //     align-items: center;
-        // }
         .section3__ul{
             margin-top: 46px;
             @include tablet {

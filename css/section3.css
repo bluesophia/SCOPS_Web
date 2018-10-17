@@ -86,6 +86,7 @@ body #bg5 {
 
 main h2.section3__header--h2 {
   margin-left: 28px;
+  font-size: 28px;
   padding-right: 10px;
 }
 
@@ -122,7 +123,7 @@ main .section3 {
 
 @media (min-width: 768px) {
   main .section3 {
-    height: 472px;
+    height: 512px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;

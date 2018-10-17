@@ -87,6 +87,7 @@ body #bg5 {
 main h2.section2__header--h2 {
   margin-top: 18px;
   margin-left: 24px;
+  font-size: 28px;
 }
 
 @media (min-width: 768px) {

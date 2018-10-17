@@ -87,7 +87,7 @@ body #bg5 {
 main h2.section6__header--h2 {
   margin-top: 53px;
   margin-left: 28px;
-  font-size: 1.7rem;
+  font-size: 28px;
   line-height: 1.5;
 }
 
@@ -204,7 +204,7 @@ main .section6 .dot {
   background-color: #FFDD8A;
   border-radius: 50%;
   position: absolute;
-  margin-top: 20px;
+  margin-top: 5px;
   z-index: -1;
 }
 
