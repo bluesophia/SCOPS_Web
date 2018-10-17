@@ -7,7 +7,7 @@ main{
         line-height: 1.5;
     }
     .section6__ul {
-        margin-top: 20px;
+        height: 210px;
     }
     .section6__ul__il {
         display: flex;
@@ -18,7 +18,6 @@ main{
     }
     .section6 {
         padding: $padding;
-        margin: 1em auto;
         display:flex;
         flex-direction: column;
         height:667px;
@@ -34,7 +33,7 @@ main{
         }
         
         .section6__header {
-            margin-top: -80px;
+            margin-top: -7px;
         }
         span {
             background-color:color(yellow);
@@ -45,10 +44,15 @@ main{
         }
         .section6__img {
             margin-top: 15px;
+            img{
+                height: 148px;
+                margin-left: 24px;
+            }
         }
         .section6__text {
             display: flex;
             justify-content: center;
+            margin-bottom:34px;
             h2{
                 color:color(grey1);
             }

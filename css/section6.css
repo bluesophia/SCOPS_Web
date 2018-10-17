@@ -30,15 +30,8 @@ body .bg {
   z-index: -10;
 }
 
-@media (min-width: 768px) {
-  body .bg {
-    margin: 0  0  0 10em;
-  }
-}
-
 body #bg1 {
   position: absolute;
-  top: 0;
 }
 
 @media (min-width: 768px) {
@@ -71,7 +64,7 @@ body #bg3 {
 
 body #bg3-1 {
   position: absolute;
-  top: 1956px;
+  top: 1936px;
 }
 
 @media (min-width: 768px) {
@@ -82,7 +75,7 @@ body #bg3-1 {
 
 body #bg5 {
   position: absolute;
-  top: 2670px;
+  top: 2668px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -99,7 +92,7 @@ main h2.section6__header--h2 {
 }
 
 main .section6__ul {
-  margin-top: 20px;
+  height: 210px;
 }
 
 main .section6__ul__il {
@@ -115,7 +108,6 @@ main .section6__ul__p {
 
 main .section6 {
   padding: 25px 45px 25px 45px;
-  margin: 1em auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -152,7 +144,7 @@ main .section6 {
 }
 
 main .section6 .section6__header {
-  margin-top: -80px;
+  margin-top: -7px;
 }
 
 main .section6 span {
@@ -167,6 +159,11 @@ main .section6 .section6__img {
   margin-top: 15px;
 }
 
+main .section6 .section6__img img {
+  height: 148px;
+  margin-left: 24px;
+}
+
 main .section6 .section6__text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -174,6 +171,7 @@ main .section6 .section6__text {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-bottom: 34px;
 }
 
 main .section6 .section6__text h2 {

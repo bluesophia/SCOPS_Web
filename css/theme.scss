@@ -56,7 +56,6 @@ body {
         //     margin:  0  0  0 30em;
         // }
         @include tablet {
-            margin:  0  0  0 10em;
         }
         
         
@@ -83,14 +82,14 @@ body {
     }
     #bg3-1 {
         position: absolute;
-        top:1956px;
+        top:1936px;
         @include tablet {
             display:none;
         }
     }
     #bg5 {
         position: absolute;
-        top:2670px;
+        top:2668px;
         display: flex;
         justify-content: flex-start;
     }

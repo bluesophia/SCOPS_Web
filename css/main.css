@@ -30,15 +30,8 @@ body .bg {
   z-index: -10;
 }
 
-@media (min-width: 768px) {
-  body .bg {
-    margin: 0  0  0 10em;
-  }
-}
-
 body #bg1 {
   position: absolute;
-  top: 0;
 }
 
 @media (min-width: 768px) {
@@ -71,7 +64,7 @@ body #bg3 {
 
 body #bg3-1 {
   position: absolute;
-  top: 1956px;
+  top: 1936px;
 }
 
 @media (min-width: 768px) {
@@ -82,7 +75,7 @@ body #bg3-1 {
 
 body #bg5 {
   position: absolute;
-  top: 2670px;
+  top: 2668px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -123,15 +116,8 @@ body .bg {
   z-index: -10;
 }
 
-@media (min-width: 768px) {
-  body .bg {
-    margin: 0  0  0 10em;
-  }
-}
-
 body #bg1 {
   position: absolute;
-  top: 0;
 }
 
 @media (min-width: 768px) {
@@ -164,7 +150,7 @@ body #bg3 {
 
 body #bg3-1 {
   position: absolute;
-  top: 1956px;
+  top: 1936px;
 }
 
 @media (min-width: 768px) {
@@ -175,7 +161,7 @@ body #bg3-1 {
 
 body #bg5 {
   position: absolute;
-  top: 2670px;
+  top: 2668px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -198,11 +184,21 @@ header .logo {
           justify-content: space-between;
 }
 
-header #logo__logo {
+header .logo__logo {
   width: 30px;
+  background-image: url("../assets/img/mobile_home.svg");
+  background-repeat: no-repeat;
 }
 
-header #logo__menu {
+@media (min-width: 768px) {
+  header .logo__logo {
+    background-image: url("../assets/img/tablet_home.svg");
+    background-repeat: no-repeat;
+    height: 40px;
+  }
+}
+
+header .logo__menu {
   width: 30px;
 }
 
@@ -238,15 +234,8 @@ body .bg {
   z-index: -10;
 }
 
-@media (min-width: 768px) {
-  body .bg {
-    margin: 0  0  0 10em;
-  }
-}
-
 body #bg1 {
   position: absolute;
-  top: 0;
 }
 
 @media (min-width: 768px) {
@@ -279,7 +268,7 @@ body #bg3 {
 
 body #bg3-1 {
   position: absolute;
-  top: 1956px;
+  top: 1936px;
 }
 
 @media (min-width: 768px) {
@@ -290,7 +279,7 @@ body #bg3-1 {
 
 body #bg5 {
   position: absolute;
-  top: 2670px;
+  top: 2668px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -299,39 +288,22 @@ body #bg5 {
           justify-content: flex-start;
 }
 
-@media (min-width: 840px) {
-  main {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 50% auto;
-        grid-template-columns: 50% auto;
-        grid-template-areas: "section card";
-  }
-}
-
-@media (min-width: 768px) {
-  main {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 70% auto;
-        grid-template-columns: 70% auto;
-        grid-template-areas: "section card";
-  }
+main .section1__container {
+  padding: 10px;
 }
 
 main .section1 {
   padding: 25px 45px 25px 45px;
-  margin: 1em auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  height: 587px;
 }
 
 @media (min-width: 840px) {
@@ -351,7 +323,10 @@ main .section1 {
             flex-direction: row;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    height: 304.5px;
+    height: 432px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -366,6 +341,17 @@ main .section1 .section1__text {
   text-align: center;
 }
 
+@media (min-width: 768px) {
+  main .section1 .section1__text {
+    grid-area: section;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    text-align: center;
+    margin: 1em;
+  }
+}
+
 main .section1 .section1__text h1 {
   color: #484848;
   font-size: 38px;
@@ -373,9 +359,21 @@ main .section1 .section1__text h1 {
   margin-bottom: 18px;
 }
 
+@media (min-width: 768px) {
+  main .section1 .section1__text h1 {
+    font-size: 2rem;
+  }
+}
+
 main .section1 .section1__text h6 {
   color: #777777;
   margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  main .section1 .section1__text h6 {
+    font-size: 0.9rem;
+  }
 }
 
 main .section1 .section1__text p {
@@ -396,8 +394,10 @@ main .section1 .section1__img img {
   height: 210px;
 }
 
-main .section2 {
-  padding: 25px 45px 25px 45px;
+@media (min-width: 768px) {
+  main .section1 .section1__img img {
+    height: 17rem;
+  }
 }
 
 body, html {
@@ -432,15 +432,8 @@ body .bg {
   z-index: -10;
 }
 
-@media (min-width: 768px) {
-  body .bg {
-    margin: 0  0  0 10em;
-  }
-}
-
 body #bg1 {
   position: absolute;
-  top: 0;
 }
 
 @media (min-width: 768px) {
@@ -473,7 +466,7 @@ body #bg3 {
 
 body #bg3-1 {
   position: absolute;
-  top: 1956px;
+  top: 1936px;
 }
 
 @media (min-width: 768px) {
@@ -484,7 +477,7 @@ body #bg3-1 {
 
 body #bg5 {
   position: absolute;
-  top: 2670px;
+  top: 2668px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -500,7 +493,6 @@ main h2.section2__header--h2 {
 
 main .section2 {
   padding: 25px 45px 25px 45px;
-  margin: 1em auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -526,7 +518,7 @@ main .section2 {
 
 @media (min-width: 768px) {
   main .section2 {
-    height: 384.5px;
+    height: 472px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -553,7 +545,8 @@ main .section2 {
 }
 
 main .section2 .section2__img {
-  margin-top: 20px;
+  margin-top: 10px;
+  padding: 14px;
 }
 
 @media (min-width: 768px) {
@@ -594,6 +587,7 @@ main .section2 .dot {
   background-color: #FFDD8A;
   border-radius: 50%;
   position: absolute;
+  margin-top: -22px;
   z-index: -1;
 }
 
@@ -651,15 +645,8 @@ body .bg {
   z-index: -10;
 }
 
-@media (min-width: 768px) {
-  body .bg {
-    margin: 0  0  0 10em;
-  }
-}
-
 body #bg1 {
   position: absolute;
-  top: 0;
 }
 
 @media (min-width: 768px) {
@@ -692,7 +679,7 @@ body #bg3 {
 
 body #bg3-1 {
   position: absolute;
-  top: 1956px;
+  top: 1936px;
 }
 
 @media (min-width: 768px) {
@@ -703,7 +690,7 @@ body #bg3-1 {
 
 body #bg5 {
   position: absolute;
-  top: 2670px;
+  top: 2668px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -719,7 +706,6 @@ main h2.section3__header--h2 {
 
 main .section3 {
   padding: 25px 45px 25px 45px;
-  margin: 1em auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -818,15 +804,8 @@ body .bg {
   z-index: -10;
 }
 
-@media (min-width: 768px) {
-  body .bg {
-    margin: 0  0  0 10em;
-  }
-}
-
 body #bg1 {
   position: absolute;
-  top: 0;
 }
 
 @media (min-width: 768px) {
@@ -859,7 +838,7 @@ body #bg3 {
 
 body #bg3-1 {
   position: absolute;
-  top: 1956px;
+  top: 1936px;
 }
 
 @media (min-width: 768px) {
@@ -870,7 +849,7 @@ body #bg3-1 {
 
 body #bg5 {
   position: absolute;
-  top: 2670px;
+  top: 2668px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -887,7 +866,6 @@ main h2.section4__header--h2 {
 
 main .section4 {
   padding: 25px 45px 25px 45px;
-  margin: 1em auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -986,15 +964,8 @@ body .bg {
   z-index: -10;
 }
 
-@media (min-width: 768px) {
-  body .bg {
-    margin: 0  0  0 10em;
-  }
-}
-
 body #bg1 {
   position: absolute;
-  top: 0;
 }
 
 @media (min-width: 768px) {
@@ -1027,7 +998,7 @@ body #bg3 {
 
 body #bg3-1 {
   position: absolute;
-  top: 1956px;
+  top: 1936px;
 }
 
 @media (min-width: 768px) {
@@ -1038,7 +1009,7 @@ body #bg3-1 {
 
 body #bg5 {
   position: absolute;
-  top: 2670px;
+  top: 2668px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1049,7 +1020,6 @@ body #bg5 {
 
 main .section5 {
   padding: 25px 45px 25px 45px;
-  margin: 1em auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1069,7 +1039,7 @@ main .section5 .section5__img {
 }
 
 main .section5 .section5__text {
-  margin-top: -86px;
+  margin-top: 44px;
   margin-left: 66px;
   text-align: center;
   width: 50%;
@@ -1112,15 +1082,8 @@ body .bg {
   z-index: -10;
 }
 
-@media (min-width: 768px) {
-  body .bg {
-    margin: 0  0  0 10em;
-  }
-}
-
 body #bg1 {
   position: absolute;
-  top: 0;
 }
 
 @media (min-width: 768px) {
@@ -1153,7 +1116,7 @@ body #bg3 {
 
 body #bg3-1 {
   position: absolute;
-  top: 1956px;
+  top: 1936px;
 }
 
 @media (min-width: 768px) {
@@ -1164,7 +1127,7 @@ body #bg3-1 {
 
 body #bg5 {
   position: absolute;
-  top: 2670px;
+  top: 2668px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1181,7 +1144,7 @@ main h2.section6__header--h2 {
 }
 
 main .section6__ul {
-  margin-top: 20px;
+  height: 210px;
 }
 
 main .section6__ul__il {
@@ -1197,7 +1160,6 @@ main .section6__ul__p {
 
 main .section6 {
   padding: 25px 45px 25px 45px;
-  margin: 1em auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1234,7 +1196,7 @@ main .section6 {
 }
 
 main .section6 .section6__header {
-  margin-top: -80px;
+  margin-top: -7px;
 }
 
 main .section6 span {
@@ -1249,6 +1211,11 @@ main .section6 .section6__img {
   margin-top: 15px;
 }
 
+main .section6 .section6__img img {
+  height: 148px;
+  margin-left: 24px;
+}
+
 main .section6 .section6__text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1256,6 +1223,7 @@ main .section6 .section6__text {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-bottom: 34px;
 }
 
 main .section6 .section6__text h2 {
@@ -1330,15 +1298,8 @@ body .bg {
   z-index: -10;
 }
 
-@media (min-width: 768px) {
-  body .bg {
-    margin: 0  0  0 10em;
-  }
-}
-
 body #bg1 {
   position: absolute;
-  top: 0;
 }
 
 @media (min-width: 768px) {
@@ -1371,7 +1332,7 @@ body #bg3 {
 
 body #bg3-1 {
   position: absolute;
-  top: 1956px;
+  top: 1936px;
 }
 
 @media (min-width: 768px) {
@@ -1382,7 +1343,7 @@ body #bg3-1 {
 
 body #bg5 {
   position: absolute;
-  top: 2670px;
+  top: 2668px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1395,7 +1356,6 @@ body #bg5 {
   background-color: #55C1AE;
   height: 516px;
   padding: 25px 45px 25px 45px;
-  margin: 1em auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

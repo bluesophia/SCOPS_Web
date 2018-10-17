@@ -1,44 +1,25 @@
 @import 'theme';
 
 main {
-    @include desktop {
-        display: grid;
-        grid-template-columns: 50% auto;
-        grid-template-areas:
-            "section card"
+    .section1__container {
+        padding:10px;
     }
-    @include tablet {
-        display: grid;
-        grid-template-columns: 70% auto;
-        grid-template-areas:
-            "section card"
-    }
-    //section1
     .section1 {
         padding: $padding;
-        margin: 1em auto;
         display:flex;
-        justify-content: center;
+        justify-content: space-around;
         flex-direction: column;
+        height: 587px;
+
         @include desktop {
             flex-direction: row;
         }
         @include tablet {
             flex-direction: row;
             justify-content: space-around;
-            height: 304.5px;
+            height: 432px;
+            align-items: center;
         }
-        // @include tablet {
-        //     display: flex;
-        //     justify-content: space-around;
-        //     // grid-area: card;
-        //     // height: fit-content;
-        //     // // align-self: right;
-        //     // justify-content: space-between;
-        //     // height: 400px;
-        //     // margin: 0;
-        // }
-
         .btn {
             background-color: color(accent);
             border-radius:30px;
@@ -52,27 +33,31 @@ main {
             //     align-self: left;
             //     margin: 1em;
             // }
-            // @include tablet {
-            //     grid-area: section;
-            //     height: fit-content;
-            //     align-self: left;
-            //     text-align:left;
-            //     font-size: 0em;
-            //     margin: 1em;
-            // }
-            
             text-align: center;
             // border: 1px solid black;
             // height: 587px;
+             @include tablet {
+                grid-area: section;
+                height: fit-content;
+                text-align:center;
+                margin: 1em;
+            }
+            
             h1 {
                 color:color(grey1);
                 font-size:38px;
                 font-weight: bold;
                 margin-bottom: 18px;
+                @include tablet{
+                    font-size: 2rem;
+                }
             }
             h6 {
                 color:color(grey2);
                 margin-bottom: 20px;
+                @include tablet{
+                    font-size: 0.9rem;
+                }
             }
             p {
                 color:white;
@@ -93,21 +78,15 @@ main {
             // }
             
             img {
-
+                height: 210px;
                 // @include desktop {
                 //     height: 400px;
                 // }
-                // @include tablet {
-                //     height: 286px;
-                // }
-
-                height: 210px;
+                @include tablet {
+                    height: 17rem;
+                }
 
             }
         }
     }
-    .section2 {
-        padding: $padding;
-    }
-    
 }

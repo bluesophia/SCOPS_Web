@@ -8,20 +8,20 @@ header {
         display:flex;
         justify-content:space-between;
     }
-    #logo__logo{
-
+    .logo__logo{
+        width: 30px;
+        background-image: url('../assets/img/mobile_home.svg');
+        background-repeat: no-repeat;
         // @include desktop {
         //     // background-image: url('../assets/img/logo.png');
         // }
-        // @include tablet {
-        //     // margin-left:265px;
-        //     // margin:  0  0  0 10em;
-        //     // background-image: url('../assets/img/logo.png');
-        // }
-        
-        width: 30px;
+        @include tablet {
+        background-image: url('../assets/img/tablet_home.svg');
+        background-repeat: no-repeat;
+        height: 40px;
+        }
     }
-    #logo__menu{
+    .logo__menu{
         width: 30px;
     }
 }

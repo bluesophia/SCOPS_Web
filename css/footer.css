@@ -30,15 +30,8 @@ body .bg {
   z-index: -10;
 }
 
-@media (min-width: 768px) {
-  body .bg {
-    margin: 0  0  0 10em;
-  }
-}
-
 body #bg1 {
   position: absolute;
-  top: 0;
 }
 
 @media (min-width: 768px) {
@@ -71,7 +64,7 @@ body #bg3 {
 
 body #bg3-1 {
   position: absolute;
-  top: 1956px;
+  top: 1936px;
 }
 
 @media (min-width: 768px) {
@@ -82,7 +75,7 @@ body #bg3-1 {
 
 body #bg5 {
   position: absolute;
-  top: 2670px;
+  top: 2668px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -95,7 +88,6 @@ body #bg5 {
   background-color: #55C1AE;
   height: 516px;
   padding: 25px 45px 25px 45px;
-  margin: 1em auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
