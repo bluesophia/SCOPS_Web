@@ -11,26 +11,48 @@ main{
         flex-direction: column;
         height:667px;
         position: relative;
+       
 
         @include desktop {
             display:flex;
             flex-direction: column;
         }
         @include tablet {
-            display:flex;
-            flex-direction: column;
+            height: 384.5px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .section2__headergroup {
+            @include tablet {
+                flex-direction: column;
+                width: 310px;
+            }
         }
         .section2__img {
             margin-top: 20px;
+            
+
+            @include tablet {
+                margin-top: 0;
+                width: 40%;
+            }
         }
         .section2__text {
             margin-top:14px;
             h2{
                 color:color(grey1);
+                @include tablet {
+                    font-size:24px;
+                }
             }
             h6 {
                 color:color(grey2);
                 margin: 10px;
+                @include tablet {
+                    font-size:14px;
+                }
             }
         }
         .dot {
@@ -50,6 +72,9 @@ main{
             margin-top: 29px;
             width: 44px;
             line-height: 17px;
+            @include tablet {
+                justify-content: space-around;
+            }
         }
     }    
     
