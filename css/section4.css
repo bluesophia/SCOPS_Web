@@ -17,6 +17,12 @@ body ul, body li {
   padding: 0;
 }
 
+body .btn {
+  background-color: #FC5C71;
+  border-radius: 30px;
+  padding: 10px 40px;
+}
+
 body .bg {
   display: -webkit-box;
   display: -ms-flexbox;

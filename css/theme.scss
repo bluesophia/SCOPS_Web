@@ -45,6 +45,11 @@ body {
         list-style-type: none;
         padding:0;
     }
+    .btn {
+        background-color: color(accent);
+        border-radius:30px;
+        padding: 10px 40px;
+    }
     .bg{
         display: flex;
         justify-content: flex-start;

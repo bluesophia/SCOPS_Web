@@ -17,6 +17,12 @@ body ul, body li {
   padding: 0;
 }
 
+body .btn {
+  background-color: #FC5C71;
+  border-radius: 30px;
+  padding: 10px 40px;
+}
+
 body .bg {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -175,6 +181,19 @@ main .section6 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    height: 512px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+  main .section6 .section6__div {
+    margin-top: -10px;
   }
 }
 
@@ -199,6 +218,14 @@ main .section6 .section6__img img {
   margin-left: 24px;
 }
 
+@media (min-width: 768px) {
+  main .section6 .section6__img img {
+    height: 206px;
+    margin-top: 30px;
+    margin-left: 0;
+  }
+}
+
 main .section6 .section6__text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -206,7 +233,7 @@ main .section6 .section6__text {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 20px;
 }
 
 main .section6 .section6__text h2 {
@@ -233,6 +260,44 @@ main .section6 .section6__text .section6__ul--yellowdashed {
   margin-top: 48px;
 }
 
+@media (min-width: 768px) {
+  main .section6 .section6__ul--yellowdashed {
+    margin-left: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  main .section6 .section6__column {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+main .section6 .section6_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (min-width: 768px) {
+  main .section6 .section6_button {
+    margin-left: 40px;
+  }
+}
+
 main .section6 .dot {
   width: 97px;
   height: 97px;
@@ -243,9 +308,28 @@ main .section6 .dot {
   z-index: -1;
 }
 
+@media (min-width: 768px) {
+  main .section6 .dot {
+    width: 97px;
+    height: 97px;
+    background-color: #FFDD8A;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -50px;
+    z-index: -1;
+  }
+}
+
 main .section6 .btn {
   background-color: #FC5C71;
   border-radius: 30px;
   padding: 10px 30px;
+}
+
+@media (min-width: 768px) {
+  main .section6 .btn {
+    margin-top: 26px;
+    width: 244px;
+  }
 }
 /*# sourceMappingURL=section6.css.map */
