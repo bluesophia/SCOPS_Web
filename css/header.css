@@ -1,9 +1,9 @@
 body, html {
   height: 100%;
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
-  font-family: 'Arial';
   margin: 0;
 }
 
@@ -17,17 +17,33 @@ body ul, body li {
   padding: 0;
 }
 
+body .btn {
+  background-color: #FC5C71;
+  border-radius: 30px;
+  padding: 10px 40px;
+}
+
 body .bg {
-  -webkit-box-flex: display;
-      -ms-flex: display;
-          flex: display;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
   width: 100%;
   height: 100%;
   position: absolute;
-  z-index: -1;
+  z-index: -10;
+}
+
+body #bg1 {
+  position: absolute;
+}
+
+@media (min-width: 768px) {
+  body #bg1 {
+    margin-left: 262px;
+  }
 }
 
 body #bg2 {
@@ -35,25 +51,78 @@ body #bg2 {
   top: 667px;
 }
 
+@media (min-width: 768px) {
+  body #bg2 {
+    display: none;
+  }
+}
+
 body #bg3 {
   position: absolute;
   top: 1334px;
 }
 
+@media (min-width: 768px) {
+  body #bg3 {
+    display: none;
+  }
+}
+
 body #bg3-1 {
   position: absolute;
-  top: 1956px;
+  top: 1936px;
+}
+
+@media (min-width: 768px) {
+  body #bg3-1 {
+    display: none;
+  }
 }
 
 body #bg5 {
   position: absolute;
-  top: 2670px;
+  top: 2668px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  background: url("../assets/img/mobile_section5img.svg");
+  background-repeat: no-repeat;
+  width: 375px;
+  height: 696px;
+}
+
+@media (min-width: 768px) {
+  body #bg5 {
+    background: url("../assets/img/tablet_section5img.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 2008px;
+    width: 768px;
+    height: 691px;
+  }
+}
+
+body #bg5-1 {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  body #bg5-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: absolute;
+    top: 1900px;
+    width: 700px;
+    height: 700px;
+    margin-left: 53px;
+  }
 }
 
 header {
@@ -70,11 +139,21 @@ header .logo {
           justify-content: space-between;
 }
 
-header #logo__logo {
+header .logo__logo {
   width: 30px;
+  background-image: url("../assets/img/mobile_home.svg");
+  background-repeat: no-repeat;
 }
 
-header #logo__menu {
+@media (min-width: 768px) {
+  header .logo__logo {
+    background-image: url("../assets/img/tablet_home.svg");
+    background-repeat: no-repeat;
+    height: 40px;
+  }
+}
+
+header .logo__menu {
   width: 30px;
 }
 /*# sourceMappingURL=header.css.map */

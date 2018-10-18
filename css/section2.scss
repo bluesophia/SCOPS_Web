@@ -3,10 +3,13 @@ main{
     h2.section2__header--h2 {
         margin-top: 18px;
         margin-left: 24px;
+        font-size: $h2;
+        @include tablet{
+            font-size: $h2;
+        }
     }
     .section2 {
         padding: $padding;
-        margin: 1em auto;
         display:flex;
         flex-direction: column;
         height:667px;
@@ -17,20 +20,54 @@ main{
             flex-direction: column;
         }
         @include tablet {
-            display:flex;
-            flex-direction: column;
+            height: 472px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .section2__headergroup {
+            @include tablet {
+                flex-direction: column;
+                width: 310px;
+            }
         }
         .section2__img {
-            margin-top: 20px;
+            margin-top: 10px;
+            padding: 14px;
+
+            @include tablet {
+                margin-top: 0;
+                width: 314px;
+                padding: 0;
+            }
         }
         .section2__text {
             margin-top:14px;
+            @include tablet {
+                margin-top:18px;
+                margin-bottom:18px;
+            }
             h2{
                 color:color(grey1);
+                @include tablet {
+                    font-size:24px;
+                    color:color(grey1);
+                }
             }
             h6 {
                 color:color(grey2);
                 margin: 10px;
+                @include tablet {
+                    font-size:14px;
+                    color:color(grey2);
+                    line-height: 1.4;
+                }
+            }
+        }
+        .section2__text__ul {
+            @include tablet {
+                display: flex;
             }
         }
         .dot {
@@ -39,17 +76,62 @@ main{
             background-color: #FFDD8A;
             border-radius: 50%;
             position: absolute;
+            margin-top: -22px;
             z-index: -1;
+            @include tablet {
+                width: 56px;
+                height: 56px;
+            }
         } 
+        .section2__ul {
+            display: none;
+            @include tablet {
+                display:block;
+            }
+            ul {
+                @include tablet {
+                    margin-bottom: 20px;
+                }
+            }    
+            h6 {
+                @include tablet {
+                    color: color(grey1);
+                }
+            }
+            p {
+                @include tablet {
+                    color: color(grey2);
+                    margin: 0;
+                    font-size:12px;
+                }
+            }
+        }
         .section2__icons {
             display: flex;
             justify-content: space-between;
-            
+            @include tablet {
+                flex-direction: column;
+                justify-content: space-between;
+                height: 258px;
+                margin-top: 10px;
+            }
         }
         .section2__icons--icon {
             margin-top: 29px;
             width: 44px;
             line-height: 17px;
+            @include tablet {
+                margin: 10px 24px 26px 0;
+                .fa-3x {
+                    font-size: 2em;
+                    color: color(grey1);
+                }
+            }
+            p {
+                @include tablet {
+                    display:none;
+                }
+            }
         }
     }    
     

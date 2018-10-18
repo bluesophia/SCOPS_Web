@@ -1,12 +1,17 @@
 @import 'theme';
 main{
     h2.section3__header--h2 {
-        margin-top: 53px;
+        // margin-top: 53px;
         margin-left: 28px;
+        font-size: $h2;
+        // width: 97px;
+        padding-right: 10px;
+        @include tablet{
+            font-size: $h2;
+        }
     }
     .section3 {
         padding: $padding;
-        margin: 1em auto;
         display:flex;
         flex-direction: column;
         height:667px;
@@ -17,8 +22,18 @@ main{
             flex-direction: column;
         }
         @include tablet {
-            display:flex;
-            flex-direction: column;
+            height: 512px;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .section3__ul{
+            margin-top: 46px;
+            @include tablet {
+                flex-direction: row;
+                width: 366px;
+                margin-top: 0;
+            }
         }
         .section3__header {
             margin-top: 20px;
@@ -26,6 +41,10 @@ main{
         }
         .section3__img {
             margin-top: 30px;
+            @include tablet {
+                width: 292px;
+                margin-top: 0;
+            }
         }
         .section3__text {
             margin-top:15px;
@@ -36,6 +55,31 @@ main{
             h6 {
                 color:color(grey2);
                 margin: 10px;
+                @include tablet{
+                    line-height: 1.4;
+                    font-size: 14px;
+                    margin-bottom: 18px;
+                    margin-left:28px;
+                }
+            }
+            @include tablet {
+                margin-top: 15px;
+                margin-left: 0;
+            }
+        }
+        .section3__ul__list {
+            display:none;
+            @include tablet {
+                display: block;
+                color: color(grey2);
+                font-size: 12px;
+                margin-left:28px;
+                margin-right: 12px;
+            }
+            li {
+                @include tablet{
+                    margin-bottom: 10px;
+                } 
             }
         }
         .dot {
@@ -44,7 +88,12 @@ main{
             background-color: #FFDD8A;
             border-radius: 50%;
             position: absolute;
+            margin-top: -38px;
             z-index: -1;
+            @include tablet {
+                width: 72px;
+                height: 72px;
+            }
         } 
     }    
     

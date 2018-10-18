@@ -9,6 +9,7 @@ $colors: (
 
 $padding: 25px 45px 25px 45px;
 $h1:46px;
+$h2:28px;
 
 
 @function color($color-name) {
@@ -30,11 +31,11 @@ $tablet: 768px;
 }
 body, html {
     height: 100%;
+    font-family: 'Roboto', sans-serif;
 }
 
 
 body {
-    font-family: 'Arial';
     margin:0;
     a{
         text-decoration: none;
@@ -44,42 +45,83 @@ body {
         list-style-type: none;
         padding:0;
     }
+    .btn {
+        background-color: color(accent);
+        border-radius:30px;
+        padding: 10px 40px;
+    }
     .bg{
-        flex:display;
+        display: flex;
         justify-content: flex-start;
         width: 100%;
         height: 100%;
         position:absolute;
-        z-index: -1;
-
+        z-index: -10;
         // @include desktop {
         //     // width: 70%;
         //     margin:  0  0  0 30em;
         // }
-        // @include tablet {
-        //     // margin-left:265px;
-        //     margin:  0  0  0 10em;
-        // }
+        @include tablet {
+        }
         
         
+    }
+    #bg1 {
+        position: absolute;
+        @include tablet {
+            margin-left: 262px;
+        }
     }
     #bg2 {
         position: absolute;
         top:667px;
+        @include tablet {
+            display:none;
+        }
     }
     #bg3 {
         position: absolute;
         top:1334px;
+        @include tablet {
+            display:none;
+        }
     }
     #bg3-1 {
         position: absolute;
-        top:1956px;
+        top:1936px;
+        @include tablet {
+            display:none;
+        }
     }
     #bg5 {
         position: absolute;
-        top:2670px;
+        top:2668px;
         display: flex;
         justify-content: flex-start;
+        background: url('../assets/img/mobile_section5img.svg');
+        background-repeat: no-repeat;
+        width: 375px;
+        height: 696px;
+        @include tablet {
+            background: url('../assets/img/tablet_section5img.svg');
+            background-repeat: no-repeat;
+            position: absolute;
+            top: 2008px;
+            width: 768px;
+            height: 691px;
+        }
+    }
+    #bg5-1 {
+        display: none;
+        @include tablet {
+            display: flex;
+            justify-content: center;
+            position: absolute;
+            top: 1900px;
+            width: 700px;
+            height: 700px;
+            margin-left: 53px;
+        }
     }
     
 }

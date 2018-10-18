@@ -1,30 +1,25 @@
 @import 'theme';
 
 main {
-    @include desktop {
-        display: grid;
-        grid-template-columns: 50% auto;
-        grid-template-areas:
-            "section card"
+    .section1__container {
+        padding:10px;
     }
-    @include tablet {
-        display: grid;
-        grid-template-columns: 70% auto;
-        grid-template-areas:
-            "section card"
-    }
-    //section1
     .section1 {
         padding: $padding;
-        margin: 1em auto;
         display:flex;
-        justify-content: center;
+        justify-content: space-around;
         flex-direction: column;
+        height: 587px;
+
         @include desktop {
             flex-direction: row;
         }
         @include tablet {
             flex-direction: row;
+            justify-content: space-around;
+            height: 432px;
+            align-items: center;
+            padding-bottom: 110px;
         }
         .btn {
             background-color: color(accent);
@@ -33,44 +28,38 @@ main {
         }
         .section1__text{
             margin-bottom: 50px;
-            // @include desktop {
-            //     grid-area: section;
-            //     height: fit-content;
-            //     align-self: left;
-            //     margin: 1em;
-            // }
-            // @include tablet {
-            //     grid-area: section;
-            //     height: fit-content;
-            //     align-self: left;
-            //     text-align:left;
-            //     font-size: 0em;
-            //     margin: 1em;
-            // }
-            
             text-align: center;
-            // border: 1px solid black;
-            // height: 587px;
+             @include tablet {
+                grid-area: section;
+                height: fit-content;
+                text-align:center;
+                margin: 1em;
+            }
             h1 {
                 color:color(grey1);
                 font-size:38px;
                 font-weight: bold;
                 margin-bottom: 18px;
+                @include tablet{
+                    color:color(grey1);
+                    font-size: 2rem;
+                }
             }
             h6 {
                 color:color(grey2);
                 margin-bottom: 20px;
+                @include tablet{
+                    font-size: 0.9rem;
+                }
             }
             p {
                 color:white;
             }
         }
         .section1__img{   
-             
             display:flex;
             justify-content: center;
             margin:0;
-
             // @include desktop {
             //     grid-area: card;
             //     height: fit-content;
@@ -78,31 +67,15 @@ main {
             //     width:528px;
             //     margin: 1em;
             // }
-            // @include tablet {
-            //     grid-area: card;
-            //     height: fit-content;
-            //     // align-self: right;
-            //     justify-content: space-between;
-            //     height: 400px;
-            //     margin: 0;
-            // }
-
             img {
-
+                height: 210px;
                 // @include desktop {
                 //     height: 400px;
                 // }
-                // @include tablet {
-                //     height: 286px;
-                // }
-
-                height: 210px;
-
-            }
+                @include tablet {
+                    height: 17rem;
+                }
+            }   
         }
     }
-    .section2 {
-        padding: $padding;
-    }
-    
 }
