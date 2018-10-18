@@ -9,6 +9,12 @@
     height:667px;
     position: relative;
     color: white;
+    @include tablet {
+        height: 196px;
+    }
+    .footer__column {
+        
+    }
 
     .footer__copyright {
         display: flex;
@@ -19,13 +25,27 @@
         margin-top:30px;
         margin-bottom:36px;
         width:88px;
+        @include tablet {
+            margin-top:0;
+            margin-bottom:0;
+            width:80px;
+        }
     }
     .footer___logo__img{
         width:88px;
+        @include tablet {
+            width: 80px;
+        }
     }
     .footer__list {
         font-size: 12px;
         margin-bottom:76px;
+        @include tablet {
+            font-size: 12px;
+            margin-bottom: 76px;
+            display: flex;
+            justify-content: space-around;
+        }
     }
     .footer__list--bold {
         font-size: 16px;
