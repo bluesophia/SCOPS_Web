@@ -99,6 +99,26 @@ body #bg5 {
   }
 }
 
+body #bg5-1 {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  body #bg5-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: absolute;
+    top: 1900px;
+    width: 700px;
+    height: 700px;
+    margin-left: 53px;
+  }
+}
+
 body, html {
   height: 100%;
   font-family: 'Roboto', sans-serif;
@@ -197,6 +217,26 @@ body #bg5 {
     top: 2008px;
     width: 768px;
     height: 691px;
+  }
+}
+
+body #bg5-1 {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  body #bg5-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: absolute;
+    top: 1900px;
+    width: 700px;
+    height: 700px;
+    margin-left: 53px;
   }
 }
 
@@ -330,6 +370,26 @@ body #bg5 {
     top: 2008px;
     width: 768px;
     height: 691px;
+  }
+}
+
+body #bg5-1 {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  body #bg5-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: absolute;
+    top: 1900px;
+    width: 700px;
+    height: 700px;
+    margin-left: 53px;
   }
 }
 
@@ -545,6 +605,26 @@ body #bg5 {
     top: 2008px;
     width: 768px;
     height: 691px;
+  }
+}
+
+body #bg5-1 {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  body #bg5-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: absolute;
+    top: 1900px;
+    width: 700px;
+    height: 700px;
+    margin-left: 53px;
   }
 }
 
@@ -863,6 +943,26 @@ body #bg5 {
   }
 }
 
+body #bg5-1 {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  body #bg5-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: absolute;
+    top: 1900px;
+    width: 700px;
+    height: 700px;
+    margin-left: 53px;
+  }
+}
+
 main h2.section3__header--h2 {
   margin-left: 28px;
   font-size: 28px;
@@ -1111,6 +1211,26 @@ body #bg5 {
     top: 2008px;
     width: 768px;
     height: 691px;
+  }
+}
+
+body #bg5-1 {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  body #bg5-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: absolute;
+    top: 1900px;
+    width: 700px;
+    height: 700px;
+    margin-left: 53px;
   }
 }
 
@@ -1371,6 +1491,26 @@ body #bg5 {
   }
 }
 
+body #bg5-1 {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  body #bg5-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: absolute;
+    top: 1900px;
+    width: 700px;
+    height: 700px;
+    margin-left: 53px;
+  }
+}
+
 main .section5 {
   padding: 25px 45px 25px 45px;
   display: -webkit-box;
@@ -1561,6 +1701,26 @@ body #bg5 {
     top: 2008px;
     width: 768px;
     height: 691px;
+  }
+}
+
+body #bg5-1 {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  body #bg5-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: absolute;
+    top: 1900px;
+    width: 700px;
+    height: 700px;
+    margin-left: 53px;
   }
 }
 
@@ -1792,6 +1952,26 @@ body #bg5 {
     top: 2008px;
     width: 768px;
     height: 691px;
+  }
+}
+
+body #bg5-1 {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  body #bg5-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: absolute;
+    top: 1900px;
+    width: 700px;
+    height: 700px;
+    margin-left: 53px;
   }
 }
 

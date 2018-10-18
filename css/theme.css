@@ -98,4 +98,24 @@ body #bg5 {
     height: 691px;
   }
 }
+
+body #bg5-1 {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  body #bg5-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: absolute;
+    top: 1900px;
+    width: 700px;
+    height: 700px;
+    margin-left: 53px;
+  }
+}
 /*# sourceMappingURL=theme.css.map */

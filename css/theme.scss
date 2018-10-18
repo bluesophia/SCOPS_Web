@@ -106,5 +106,17 @@ body {
             height: 691px;
         }
     }
+    #bg5-1 {
+        display: none;
+        @include tablet {
+            display: flex;
+            justify-content: center;
+            position: absolute;
+            top: 1900px;
+            width: 700px;
+            height: 700px;
+            margin-left: 53px;
+        }
+    }
     
 }
