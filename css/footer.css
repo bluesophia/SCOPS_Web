@@ -96,7 +96,8 @@ body #bg5 {
           justify-content: flex-start;
   background: url("../assets/img/mobile_section5img.svg");
   background-repeat: no-repeat;
-  width: 375px;
+  width: 100%;
+  max-width: 768px;
   height: 696px;
 }
 
@@ -106,7 +107,20 @@ body #bg5 {
     background-repeat: no-repeat;
     position: absolute;
     top: 2008px;
-    width: 768px;
+    width: 100%;
+    max-width: 1024px;
+    height: 691px;
+  }
+}
+
+@media (min-width: 1024px) {
+  body #bg5 {
+    background: url("../assets/img/tablet_section5img.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 2500px;
+    width: 100%;
+    max-width: 1440px;
     height: 691px;
   }
 }
@@ -125,6 +139,22 @@ body #bg5-1 {
             justify-content: center;
     position: absolute;
     top: 1900px;
+    width: 700px;
+    height: 700px;
+    margin-left: 53px;
+  }
+}
+
+@media (min-width: 768px) {
+  body #bg5-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: absolute;
+    top: 2424px;
     width: 700px;
     height: 700px;
     margin-left: 53px;
