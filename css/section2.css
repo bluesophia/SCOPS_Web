@@ -134,7 +134,6 @@ body #bg5-1 {
 main h2.section2__header--h2 {
   margin-top: 18px;
   margin-left: 24px;
-  font-size: 28px;
 }
 
 @media (min-width: 768px) {
@@ -383,7 +382,7 @@ main .section2 .section2__icons--icon {
 
 @media (min-width: 768px) and (min-width: 1024px) {
   main .section2 .section2__icons--icon {
-    margin: 0px 24px 54px 0;
+    margin: 0px 24px 72px 0;
   }
 }
 

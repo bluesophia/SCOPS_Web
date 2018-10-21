@@ -10,7 +10,7 @@ $colors: (
 $padding: 25px 45px 25px 45px;
 $h1:46px;
 $h2:28px;
-$h3:24px;
+$h3:24px;   
 $h5:16px;
 $h6:14px;
  
@@ -60,14 +60,6 @@ body {
         height: 100%;
         position:absolute;
         z-index: -10;
-        // @include desktop {
-        //     // width: 70%;
-        //     margin:  0  0  0 30em;
-        // }
-        @include tablet {
-        }
-        
-        
     }
     #bg1 {
         position: absolute;

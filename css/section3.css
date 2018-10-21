@@ -133,7 +133,6 @@ body #bg5-1 {
 
 main h2.section3__header--h2 {
   margin-left: 28px;
-  font-size: 28px;
   padding-right: 10px;
 }
 
@@ -156,18 +155,6 @@ main .section3 {
   position: relative;
 }
 
-@media (min-width: 1024px) {
-  main .section3 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-
 @media (min-width: 768px) {
   main .section3 {
     height: 512px;
@@ -181,6 +168,21 @@ main .section3 {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+  }
+}
+
+@media (min-width: 1024px) {
+  main .section3 {
+    height: 600px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
 }
 
@@ -214,27 +216,16 @@ main .section3 .section3__img {
   }
 }
 
+@media (min-width: 1024px) {
+  main .section3 .section3__img {
+    width: 450px;
+    margin-top: 0;
+  }
+}
+
 main .section3 .section3__text {
   margin-top: 15px;
   margin-left: 15px;
-}
-
-main .section3 .section3__text h2 {
-  color: #484848;
-}
-
-main .section3 .section3__text h6 {
-  color: #777777;
-  margin: 10px;
-}
-
-@media (min-width: 768px) {
-  main .section3 .section3__text h6 {
-    line-height: 1.4;
-    font-size: 14px;
-    margin-bottom: 18px;
-    margin-left: 28px;
-  }
 }
 
 @media (min-width: 768px) {
@@ -244,17 +235,63 @@ main .section3 .section3__text h6 {
   }
 }
 
+main .section3 .section3__text h2 {
+  color: #484848;
+}
+
+@media (min-width: 768px) {
+  main .section3 .section3__text h2 {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  main .section3 .section3__text h2 {
+    font-size: 28px;
+  }
+}
+
+main .section3 .section3__text h6 {
+  color: #777777;
+  margin: 10px;
+}
+
+@media (min-width: 768px) {
+  main .section3 .section3__text h6 {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-left: 28px;
+  }
+}
+
+@media (min-width: 1024px) {
+  main .section3 .section3__text h6 {
+    font-size: 16px;
+    line-height: 1.4;
+    margin-left: 28px;
+  }
+}
+
 main .section3 .section3__ul__list {
   display: none;
+  font-size: 12px;
+  color: #777777;
 }
 
 @media (min-width: 768px) {
   main .section3 .section3__ul__list {
     display: block;
-    color: #777777;
-    font-size: 12px;
     margin-left: 28px;
     margin-right: 12px;
+  }
+}
+
+@media (min-width: 1024px) {
+  main .section3 .section3__ul__list {
+    display: block;
+    margin-left: 28px;
+    margin-right: 12px;
+    margin-top: 16px;
   }
 }
 

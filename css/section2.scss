@@ -3,7 +3,6 @@ main{
     h2.section2__header--h2 {
         margin-top: 18px;
         margin-left: 24px;
-        font-size: $h2;
         @include tablet{
             font-size: $h3;
         }
@@ -147,7 +146,7 @@ main{
                     color: color(grey1);
                 }
             @include desktop {
-                margin: 0px 24px 54px 0;
+                margin: 0px 24px 72px 0;
             }    
             }
             p {

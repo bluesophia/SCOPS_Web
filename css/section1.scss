@@ -68,13 +68,6 @@ main {
             display:flex;
             justify-content: center;
             margin:0;
-            // @include desktop {
-            //     grid-area: card;
-            //     height: fit-content;
-            //     // align-self: right;
-            //     width:528px;
-            //     margin: 1em;
-            // }
             img {
                 height: 210px;
                 @include tablet {

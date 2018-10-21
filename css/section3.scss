@@ -1,10 +1,7 @@
 @import 'theme';
 main{
     h2.section3__header--h2 {
-        // margin-top: 53px;
         margin-left: 28px;
-        font-size: $h2;
-        // width: 97px;
         padding-right: 10px;
         @include tablet{
             font-size: $h2;
@@ -16,16 +13,17 @@ main{
         flex-direction: column;
         height:667px;
         position: relative;
-
-        @include desktop {
-            display:flex;
-            flex-direction: column;
-        }
         @include tablet {
             height: 512px;
             flex-direction: row;
             align-items: center;
             justify-content: space-between;
+        }
+        @include desktop {
+            height: 600px;
+            display:flex;
+            flex-direction: row;
+            justify-content: space-around;
         }
         .section3__ul{
             margin-top: 46px;
@@ -34,6 +32,9 @@ main{
                 width: 366px;
                 margin-top: 0;
             }
+        }
+        .section3__ul__div {
+
         }
         .section3__header {
             margin-top: 20px;
@@ -45,36 +46,69 @@ main{
                 width: 292px;
                 margin-top: 0;
             }
+            @include desktop {
+                width: 450px;
+                margin-top: 0;
+            }
         }
         .section3__text {
             margin-top:15px;
             margin-left:15px;
-            h2{
-                color:color(grey1);
-            }
-            h6 {
-                color:color(grey2);
-                margin: 10px;
-                @include tablet{
-                    line-height: 1.4;
-                    font-size: 14px;
-                    margin-bottom: 18px;
-                    margin-left:28px;
-                }
-            }
             @include tablet {
                 margin-top: 15px;
                 margin-left: 0;
             }
+            // h2{
+            //     color:color(grey1);
+            // }
+            // h6 {
+            //     color:color(grey2);
+            //     margin: 10px;
+            //     @include tablet{
+            //         line-height: 1.4;
+            //         font-size: 14px;
+            //         margin-bottom: 18px;
+            //         margin-left:28px;
+            //     }
+            // }
+            h2{
+                color:color(grey1);
+                @include tablet {
+                    font-size:$h3;
+                }
+                @include desktop {
+                    font-size:$h2;
+                }
+            }
+            h6 {
+                color:color(grey2);
+                margin: 10px;
+                @include tablet {
+                    font-size:14px;
+                    line-height: 1.4;
+                    margin-left: 28px;
+                }
+                @include desktop {
+                    font-size: $h5;
+                    line-height: 1.4;
+                    margin-left: 28px;
+                }
+            }
         }
         .section3__ul__list {
             display:none;
+            font-size: 12px;
+            color: color(grey2);
             @include tablet {
                 display: block;
-                color: color(grey2);
-                font-size: 12px;
                 margin-left:28px;
                 margin-right: 12px;
+            }
+            @include desktop {
+                display: block;
+                margin-left: 28px;
+                margin-right: 12px;
+                margin-top: 16px;
             }
             li {
                 @include tablet{
