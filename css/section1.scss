@@ -9,17 +9,19 @@ main {
         display:flex;
         justify-content: space-around;
         flex-direction: column;
-        height: 587px;
-
-        @include desktop {
-            flex-direction: row;
-        }
+        height: 587px;        
         @include tablet {
             flex-direction: row;
             justify-content: space-around;
             height: 432px;
             align-items: center;
             padding-bottom: 110px;
+        }
+        @include desktop {
+            flex-direction: row;
+            height: 768px;
+            align-items: center;
+            justify-content: space-around;
         }
         .btn {
             background-color: color(accent);
@@ -44,12 +46,18 @@ main {
                     color:color(grey1);
                     font-size: 2rem;
                 }
+                @include desktop {
+                    font-size: 38px;
+                }
             }
             h6 {
                 color:color(grey2);
                 margin-bottom: 20px;
                 @include tablet {
                     font-size: 0.9rem;
+                }
+                @include desktop {
+                    font-size: 1.2rem;
                 }
             }
             p {
@@ -69,11 +77,11 @@ main {
             // }
             img {
                 height: 210px;
-                // @include desktop {
-                //     height: 400px;
-                // }
                 @include tablet {
-                    height: 17rem;
+                    height: 286px;
+                }
+                @include desktop {
+                    height: 370px;
                 }
             }   
         }

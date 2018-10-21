@@ -46,9 +46,9 @@ body #bg1 {
   }
 }
 
-@media (min-width: 840px) {
+@media (min-width: 1024px) {
   body #bg1 {
-    margin-left: 354px;
+    margin-left: 270px;
   }
 }
 
@@ -156,7 +156,7 @@ main .section2 {
   position: relative;
 }
 
-@media (min-width: 840px) {
+@media (min-width: 1024px) {
   main .section2 {
     display: -webkit-box;
     display: -ms-flexbox;

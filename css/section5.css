@@ -46,9 +46,9 @@ body #bg1 {
   }
 }
 
-@media (min-width: 840px) {
+@media (min-width: 1024px) {
   body #bg1 {
-    margin-left: 354px;
+    margin-left: 270px;
   }
 }
 

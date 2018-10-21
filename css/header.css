@@ -46,9 +46,9 @@ body #bg1 {
   }
 }
 
-@media (min-width: 840px) {
+@media (min-width: 1024px) {
   body #bg1 {
-    margin-left: 354px;
+    margin-left: 270px;
   }
 }
 
@@ -145,7 +145,7 @@ header .logo {
           justify-content: space-between;
 }
 
-@media (min-width: 840px) {
+@media (min-width: 1024px) {
   header .logo {
     display: none;
   }
@@ -155,7 +155,7 @@ header .header__nav {
   display: none;
 }
 
-@media (min-width: 840px) {
+@media (min-width: 1024px) {
   header .header__nav {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -166,7 +166,7 @@ header .header__nav {
   }
 }
 
-@media (min-width: 840px) {
+@media (min-width: 1024px) {
   header .header__nav__ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -174,10 +174,10 @@ header .header__nav {
   }
 }
 
-@media (min-width: 840px) {
+@media (min-width: 1024px) {
   header .header__nav__ul li {
     margin-left: 37px;
-    font-size: 12px;
+    font-size: 14px;
     color: white;
   }
 }

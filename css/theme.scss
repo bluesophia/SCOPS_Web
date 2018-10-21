@@ -10,14 +10,14 @@ $colors: (
 $padding: 25px 45px 25px 45px;
 $h1:46px;
 $h2:28px;
-$h6:12px;
+$h6:14px;
 
 
 @function color($color-name) {
     @return map-get($colors, $color-name)
 }
 
-$desktop: 840px;
+$desktop: 1024px;
 $tablet: 768px;
 
 @mixin desktop {
@@ -73,7 +73,7 @@ body {
             margin-left: 262px;
         }
         @include desktop {
-            margin-left: 354px;
+            margin-left: 270px;
         }
     }
     #bg2 {
