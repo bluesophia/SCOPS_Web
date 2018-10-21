@@ -46,6 +46,12 @@ body #bg1 {
   }
 }
 
+@media (min-width: 840px) {
+  body #bg1 {
+    margin-left: 354px;
+  }
+}
+
 body #bg2 {
   position: absolute;
   top: 667px;
@@ -170,6 +176,12 @@ body #bg1 {
 @media (min-width: 768px) {
   body #bg1 {
     margin-left: 262px;
+  }
+}
+
+@media (min-width: 840px) {
+  body #bg1 {
+    margin-left: 354px;
   }
 }
 
@@ -272,6 +284,37 @@ header .logo {
   }
 }
 
+header .header__nav {
+  display: none;
+}
+
+@media (min-width: 840px) {
+  header .header__nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media (min-width: 840px) {
+  header .header__nav__ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media (min-width: 840px) {
+  header .header__nav__ul li {
+    margin-left: 37px;
+    font-size: 12px;
+    color: white;
+  }
+}
+
 header .nav__img--mintlogo {
   width: 106px;
 }
@@ -339,6 +382,12 @@ body #bg1 {
 @media (min-width: 768px) {
   body #bg1 {
     margin-left: 262px;
+  }
+}
+
+@media (min-width: 840px) {
+  body #bg1 {
+    margin-left: 354px;
   }
 }
 
@@ -580,6 +629,12 @@ body #bg1 {
 @media (min-width: 768px) {
   body #bg1 {
     margin-left: 262px;
+  }
+}
+
+@media (min-width: 840px) {
+  body #bg1 {
+    margin-left: 354px;
   }
 }
 
@@ -924,6 +979,12 @@ body #bg1 {
   }
 }
 
+@media (min-width: 840px) {
+  body #bg1 {
+    margin-left: 354px;
+  }
+}
+
 body #bg2 {
   position: absolute;
   top: 667px;
@@ -1198,6 +1259,12 @@ body #bg1 {
 @media (min-width: 768px) {
   body #bg1 {
     margin-left: 262px;
+  }
+}
+
+@media (min-width: 840px) {
+  body #bg1 {
+    margin-left: 354px;
   }
 }
 
@@ -1484,6 +1551,12 @@ body #bg1 {
   }
 }
 
+@media (min-width: 840px) {
+  body #bg1 {
+    margin-left: 354px;
+  }
+}
+
 body #bg2 {
   position: absolute;
   top: 667px;
@@ -1700,6 +1773,12 @@ body #bg1 {
 @media (min-width: 768px) {
   body #bg1 {
     margin-left: 262px;
+  }
+}
+
+@media (min-width: 840px) {
+  body #bg1 {
+    margin-left: 354px;
   }
 }
 
@@ -2035,6 +2114,12 @@ body #bg1 {
 @media (min-width: 768px) {
   body #bg1 {
     margin-left: 262px;
+  }
+}
+
+@media (min-width: 840px) {
+  body #bg1 {
+    margin-left: 354px;
   }
 }
 
