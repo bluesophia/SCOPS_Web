@@ -26,7 +26,7 @@ main {
             border-radius:30px;
             padding: 10px 40px;
         }
-        .section1__text{
+        .section1__text {
             margin-bottom: 50px;
             text-align: center;
              @include tablet {
@@ -40,7 +40,7 @@ main {
                 font-size:38px;
                 font-weight: bold;
                 margin-bottom: 18px;
-                @include tablet{
+                @include tablet {
                     color:color(grey1);
                     font-size: 2rem;
                 }
@@ -48,7 +48,7 @@ main {
             h6 {
                 color:color(grey2);
                 margin-bottom: 20px;
-                @include tablet{
+                @include tablet {
                     font-size: 0.9rem;
                 }
             }
@@ -56,7 +56,7 @@ main {
                 color:white;
             }
         }
-        .section1__img{   
+        .section1__img {   
             display:flex;
             justify-content: center;
             margin:0;

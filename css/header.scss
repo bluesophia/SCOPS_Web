@@ -7,6 +7,12 @@ header {
     .logo{
         display:flex;
         justify-content:space-between;
+        @include desktop {
+            display: none;
+        }
+    }
+    .nav__img--mintlogo {
+        width: 106px;
     }
     .logo__logo{
         width: 30px;
