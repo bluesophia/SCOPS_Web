@@ -19,7 +19,7 @@ main {
         }
         @include desktop {
             flex-direction: row;
-            height: 768px;
+            height: 600px;
             align-items: center;
             justify-content: space-around;
         }
