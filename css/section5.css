@@ -52,6 +52,12 @@ body #bg1 {
   }
 }
 
+@media (min-width: 1440px) {
+  body #bg1 {
+    margin-left: 560px;
+  }
+}
+
 body #bg2 {
   position: absolute;
   top: 667px;
@@ -118,7 +124,7 @@ body #bg5 {
     background: url("../assets/img/tablet_section5img.svg");
     background-repeat: no-repeat;
     position: absolute;
-    top: 2500px;
+    top: 2456px;
     width: 100%;
     max-width: 1440px;
     height: 691px;
@@ -186,6 +192,15 @@ main .section5 {
   }
 }
 
+@media (min-width: 1024px) {
+  main .section5 {
+    height: 600px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 @media (min-width: 768px) {
   main .section5 .section5__ul {
     display: -webkit-box;
@@ -210,6 +225,13 @@ main .section5 .section5__img {
   main .section5 .section5__img {
     width: 570px;
     height: 226px;
+  }
+}
+
+@media (min-width: 1024px) {
+  main .section5 .section5__img {
+    width: 770px;
+    height: 300px;
   }
 }
 
@@ -244,11 +266,26 @@ main .section5 .section5__text h4 {
   }
 }
 
+@media (min-width: 1024px) {
+  main .section5 .section5__text h4 {
+    font-size: 30px;
+  }
+}
+
 @media (min-width: 768px) {
   main .section5 .section5__text {
     margin-top: 0px;
     margin-left: 0px;
     width: 300px;
+    margin-bottom: 8px;
+  }
+}
+
+@media (min-width: 1024px) {
+  main .section5 .section5__text {
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 100%;
     margin-bottom: 8px;
   }
 }

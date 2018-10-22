@@ -17,7 +17,7 @@ main{
             height: 512px;
             flex-direction: row;
             align-items: center;
-            justify-content: space-between;
+            justify-content: space-around;
         }
         @include desktop {
             height: 600px;
@@ -32,9 +32,6 @@ main{
                 width: 366px;
                 margin-top: 0;
             }
-        }
-        .section3__ul__div {
-
         }
         .section3__header {
             margin-top: 20px;

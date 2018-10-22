@@ -52,6 +52,12 @@ body #bg1 {
   }
 }
 
+@media (min-width: 1440px) {
+  body #bg1 {
+    margin-left: 560px;
+  }
+}
+
 body #bg2 {
   position: absolute;
   top: 667px;
@@ -118,7 +124,7 @@ body #bg5 {
     background: url("../assets/img/tablet_section5img.svg");
     background-repeat: no-repeat;
     position: absolute;
-    top: 2500px;
+    top: 2456px;
     width: 100%;
     max-width: 1440px;
     height: 691px;
@@ -215,6 +221,12 @@ body #bg1 {
   }
 }
 
+@media (min-width: 1440px) {
+  body #bg1 {
+    margin-left: 560px;
+  }
+}
+
 body #bg2 {
   position: absolute;
   top: 667px;
@@ -281,7 +293,7 @@ body #bg5 {
     background: url("../assets/img/tablet_section5img.svg");
     background-repeat: no-repeat;
     position: absolute;
-    top: 2500px;
+    top: 2456px;
     width: 100%;
     max-width: 1440px;
     height: 691px;
@@ -451,6 +463,12 @@ body #bg1 {
   }
 }
 
+@media (min-width: 1440px) {
+  body #bg1 {
+    margin-left: 560px;
+  }
+}
+
 body #bg2 {
   position: absolute;
   top: 667px;
@@ -517,7 +535,7 @@ body #bg5 {
     background: url("../assets/img/tablet_section5img.svg");
     background-repeat: no-repeat;
     position: absolute;
-    top: 2500px;
+    top: 2456px;
     width: 100%;
     max-width: 1440px;
     height: 691px;
@@ -698,6 +716,12 @@ main .section1 .section1__img img {
   }
 }
 
+@media (min-width: 1440px) {
+  main .section1 .section1__img img {
+    height: 370px;
+  }
+}
+
 body, html {
   height: 100%;
   font-family: 'Roboto', sans-serif;
@@ -749,6 +773,12 @@ body #bg1 {
 @media (min-width: 1024px) {
   body #bg1 {
     margin-left: 270px;
+  }
+}
+
+@media (min-width: 1440px) {
+  body #bg1 {
+    margin-left: 560px;
   }
 }
 
@@ -818,7 +848,7 @@ body #bg5 {
     background: url("../assets/img/tablet_section5img.svg");
     background-repeat: no-repeat;
     position: absolute;
-    top: 2500px;
+    top: 2456px;
     width: 100%;
     max-width: 1440px;
     height: 691px;
@@ -901,9 +931,8 @@ main .section2 {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -1176,6 +1205,12 @@ body #bg1 {
   }
 }
 
+@media (min-width: 1440px) {
+  body #bg1 {
+    margin-left: 560px;
+  }
+}
+
 body #bg2 {
   position: absolute;
   top: 667px;
@@ -1242,7 +1277,7 @@ body #bg5 {
     background: url("../assets/img/tablet_section5img.svg");
     background-repeat: no-repeat;
     position: absolute;
-    top: 2500px;
+    top: 2456px;
     width: 100%;
     max-width: 1440px;
     height: 691px;
@@ -1319,9 +1354,8 @@ main .section3 {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
 }
 
@@ -1526,6 +1560,12 @@ body #bg1 {
   }
 }
 
+@media (min-width: 1440px) {
+  body #bg1 {
+    margin-left: 560px;
+  }
+}
+
 body #bg2 {
   position: absolute;
   top: 667px;
@@ -1592,7 +1632,7 @@ body #bg5 {
     background: url("../assets/img/tablet_section5img.svg");
     background-repeat: no-repeat;
     position: absolute;
-    top: 2500px;
+    top: 2456px;
     width: 100%;
     max-width: 1440px;
     height: 691px;
@@ -1679,9 +1719,8 @@ main .section4 {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     height: 512px;
   }
 }
@@ -1899,6 +1938,12 @@ body #bg1 {
   }
 }
 
+@media (min-width: 1440px) {
+  body #bg1 {
+    margin-left: 560px;
+  }
+}
+
 body #bg2 {
   position: absolute;
   top: 667px;
@@ -1965,7 +2010,7 @@ body #bg5 {
     background: url("../assets/img/tablet_section5img.svg");
     background-repeat: no-repeat;
     position: absolute;
-    top: 2500px;
+    top: 2456px;
     width: 100%;
     max-width: 1440px;
     height: 691px;
@@ -2033,6 +2078,16 @@ main .section5 {
   }
 }
 
+@media (min-width: 1024px) {
+  main .section5 {
+    height: 600px;
+    border: 1px solid;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 @media (min-width: 768px) {
   main .section5 .section5__ul {
     display: -webkit-box;
@@ -2057,6 +2112,13 @@ main .section5 .section5__img {
   main .section5 .section5__img {
     width: 570px;
     height: 226px;
+  }
+}
+
+@media (min-width: 1024px) {
+  main .section5 .section5__img {
+    width: 770px;
+    height: 300px;
   }
 }
 
@@ -2091,11 +2153,26 @@ main .section5 .section5__text h4 {
   }
 }
 
+@media (min-width: 1024px) {
+  main .section5 .section5__text h4 {
+    font-size: 30px;
+  }
+}
+
 @media (min-width: 768px) {
   main .section5 .section5__text {
     margin-top: 0px;
     margin-left: 0px;
     width: 300px;
+    margin-bottom: 8px;
+  }
+}
+
+@media (min-width: 1024px) {
+  main .section5 .section5__text {
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 100%;
     margin-bottom: 8px;
   }
 }
@@ -2151,6 +2228,12 @@ body #bg1 {
 @media (min-width: 1024px) {
   body #bg1 {
     margin-left: 270px;
+  }
+}
+
+@media (min-width: 1440px) {
+  body #bg1 {
+    margin-left: 560px;
   }
 }
 
@@ -2220,7 +2303,7 @@ body #bg5 {
     background: url("../assets/img/tablet_section5img.svg");
     background-repeat: no-repeat;
     position: absolute;
-    top: 2500px;
+    top: 2456px;
     width: 100%;
     max-width: 1440px;
     height: 691px;
@@ -2525,6 +2608,12 @@ body #bg1 {
   }
 }
 
+@media (min-width: 1440px) {
+  body #bg1 {
+    margin-left: 560px;
+  }
+}
+
 body #bg2 {
   position: absolute;
   top: 667px;
@@ -2591,7 +2680,7 @@ body #bg5 {
     background: url("../assets/img/tablet_section5img.svg");
     background-repeat: no-repeat;
     position: absolute;
-    top: 2500px;
+    top: 2456px;
     width: 100%;
     max-width: 1440px;
     height: 691px;

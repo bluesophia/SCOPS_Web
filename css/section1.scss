@@ -76,6 +76,9 @@ main {
                 @include desktop {
                     height: 370px;
                 }
+                @include desktopLarge {
+                    height: 370px;
+                }
             }   
         }
     }
