@@ -136,12 +136,12 @@ body {
             display: flex;
             justify-content: center;
             position: absolute;
-            top: 1900px;
+            top: 1908px;
             width: 700px;
             height: 700px;
-            margin-left: 53px;
+            margin-left: 39px;
         }
-        @include tablet {
+        @include desktop {
             display: flex;
             justify-content: center;
             position: absolute;

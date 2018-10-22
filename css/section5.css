@@ -144,14 +144,14 @@ body #bg5-1 {
         -ms-flex-pack: center;
             justify-content: center;
     position: absolute;
-    top: 1900px;
+    top: 1908px;
     width: 700px;
     height: 700px;
-    margin-left: 53px;
+    margin-left: 39px;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   body #bg5-1 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -230,7 +230,7 @@ main .section5 .section5__img {
 
 @media (min-width: 1024px) {
   main .section5 .section5__img {
-    width: 770px;
+    width: 740px;
     height: 300px;
   }
 }

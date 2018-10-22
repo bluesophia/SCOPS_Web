@@ -22,7 +22,7 @@ main{
             display:flex;
             flex-direction: row-reverse;
             align-items: center;
-            justify-content: space-around;
+            justify-content: space-between;
             height:512px;
         }
         @include desktop {
@@ -78,7 +78,6 @@ main{
                 flex-direction: row;
                 width: 338px;
                 margin-top: 28px;
-                margin-left: 20px;
             }
             @include desktop {
                 display: block;
@@ -89,7 +88,7 @@ main{
         }
         .section4__ul--yellowdashed {
             display: none;
-            @include tablet {
+            @include tablet {   
                 display:block;
                 margin-top: 28px;
                 margin-left: 28px;

@@ -20,7 +20,7 @@ main{
             height: 472px;
             display: flex;
             flex-direction: row;
-            justify-content: space-around;
+            justify-content: space-between;
             align-items: center;
         }
         @include desktop {
@@ -33,7 +33,7 @@ main{
                 flex-direction: column;
                 width: 310px;
             }
-            @include tablet {
+            @include desktop {
                 flex-direction: column;
                 width: 405px;
             }

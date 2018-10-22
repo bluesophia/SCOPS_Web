@@ -144,14 +144,14 @@ body #bg5-1 {
         -ms-flex-pack: center;
             justify-content: center;
     position: absolute;
-    top: 1900px;
+    top: 1908px;
     width: 700px;
     height: 700px;
-    margin-left: 53px;
+    margin-left: 39px;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   body #bg5-1 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -201,8 +201,9 @@ main .section3 {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 

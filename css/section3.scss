@@ -17,7 +17,7 @@ main{
             height: 512px;
             flex-direction: row;
             align-items: center;
-            justify-content: space-around;
+            justify-content: space-between;
         }
         @include desktop {
             height: 600px;
