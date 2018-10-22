@@ -121,7 +121,7 @@ body #bg5 {
 
 @media (min-width: 1024px) {
   body #bg5 {
-    background: url("../assets/img/tablet_section5img.svg");
+    background: url("../assets/img/tablet_section5imgL.svg");
     background-repeat: no-repeat;
     position: absolute;
     top: 2456px;
@@ -167,6 +167,22 @@ body #bg5-1 {
   }
 }
 
+@media (min-width: 1440px) {
+  body #bg5-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: absolute;
+    top: 2328px;
+    width: 926px;
+    height: 926px;
+    margin-left: 276px;
+  }
+}
+
 .footer {
   background-color: #55C1AE;
   height: 516px;
@@ -200,9 +216,8 @@ body #bg5-1 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
 }
 
@@ -218,7 +233,14 @@ body #bg5-1 {
 
 @media (min-width: 768px) {
   .footer .footer__copyright p {
-    margin-top: 30px;
+    margin-top: 55px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer .footer__copyright p {
+    margin-top: 62px;
+    font-size: 10px;
   }
 }
 
