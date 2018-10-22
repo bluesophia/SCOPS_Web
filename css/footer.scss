@@ -12,6 +12,9 @@
     @include tablet {
         height: 215px;
     }
+    @include desktop {
+        height: 260px;
+    }
     .footer__column {
         @include tablet {
             display: flex;
