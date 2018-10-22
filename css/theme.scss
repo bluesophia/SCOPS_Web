@@ -10,15 +10,24 @@ $colors: (
 $padding: 25px 45px 25px 45px;
 $h1:46px;
 $h2:28px;
-
+$h3:24px;   
+$h5:16px;
+$h6:14px;
+ 
 
 @function color($color-name) {
     @return map-get($colors, $color-name)
 }
-
-$desktop: 840px;
+$desktopLarge: 1440px;
+$desktop: 1024px;
 $tablet: 768px;
+$mobileLarge: 425px;
 
+@mixin desktopLarge {
+    @media (min-width: #{$desktopLarge}) {
+        @content;
+    }
+}
 @mixin desktop {
     @media (min-width: #{$desktop}) {
         @content;
@@ -57,24 +66,23 @@ body {
         height: 100%;
         position:absolute;
         z-index: -10;
-        // @include desktop {
-        //     // width: 70%;
-        //     margin:  0  0  0 30em;
-        // }
-        @include tablet {
-        }
-        
-        
     }
     #bg1 {
         position: absolute;
         @include tablet {
             margin-left: 262px;
         }
+        @include desktop {
+            margin-left: 270px;
+        }
+        @include desktopLarge {
+            margin-left: 560px;
+        }
     }
     #bg2 {
         position: absolute;
         top:667px;
+        // max-width: 425px;
         @include tablet {
             display:none;
         }
@@ -100,16 +108,30 @@ body {
         justify-content: flex-start;
         background: url('../assets/img/mobile_section5img.svg');
         background-repeat: no-repeat;
-        width: 375px;
+        // width: 375px;
+        width: 100%;
+        max-width: 768px;
         height: 696px;
         @include tablet {
             background: url('../assets/img/tablet_section5img.svg');
             background-repeat: no-repeat;
             position: absolute;
             top: 2008px;
-            width: 768px;
+            // width: 768px;
+            width: 100%;
+            max-width: 1024px;
             height: 691px;
         }
+        @include desktop {
+            background: url('../assets/img/tablet_section5imgL.svg');
+            background-repeat: no-repeat;
+            position: absolute;
+            top: 2456px;
+            width:100%;
+            max-width: 1440px;
+            height: 691px;
+        }
+        
     }
     #bg5-1 {
         display: none;
@@ -117,10 +139,28 @@ body {
             display: flex;
             justify-content: center;
             position: absolute;
-            top: 1900px;
+            top: 1908px;
             width: 700px;
             height: 700px;
-            margin-left: 53px;
+            margin-left: 39px;
+        }
+        @include desktop {
+            display: flex;
+            justify-content: center;
+            position: absolute;
+            top: 2328px;
+            width: 926px;
+            height: 926px;
+            margin-left: 64px;
+        }
+        @include desktopLarge {
+            display: flex;
+            justify-content: center;
+            position: absolute;
+            top: 2328px;
+            width: 926px;
+            height: 926px;
+            margin-left: 276px;
         }
     }
     

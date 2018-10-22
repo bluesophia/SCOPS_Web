@@ -46,6 +46,18 @@ body #bg1 {
   }
 }
 
+@media (min-width: 1024px) {
+  body #bg1 {
+    margin-left: 270px;
+  }
+}
+
+@media (min-width: 1440px) {
+  body #bg1 {
+    margin-left: 560px;
+  }
+}
+
 body #bg2 {
   position: absolute;
   top: 667px;
@@ -90,7 +102,8 @@ body #bg5 {
           justify-content: flex-start;
   background: url("../assets/img/mobile_section5img.svg");
   background-repeat: no-repeat;
-  width: 375px;
+  width: 100%;
+  max-width: 768px;
   height: 696px;
 }
 
@@ -100,7 +113,20 @@ body #bg5 {
     background-repeat: no-repeat;
     position: absolute;
     top: 2008px;
-    width: 768px;
+    width: 100%;
+    max-width: 1024px;
+    height: 691px;
+  }
+}
+
+@media (min-width: 1024px) {
+  body #bg5 {
+    background: url("../assets/img/tablet_section5imgL.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 2456px;
+    width: 100%;
+    max-width: 1440px;
     height: 691px;
   }
 }
@@ -118,10 +144,42 @@ body #bg5-1 {
         -ms-flex-pack: center;
             justify-content: center;
     position: absolute;
-    top: 1900px;
+    top: 1908px;
     width: 700px;
     height: 700px;
-    margin-left: 53px;
+    margin-left: 39px;
+  }
+}
+
+@media (min-width: 1024px) {
+  body #bg5-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: absolute;
+    top: 2328px;
+    width: 926px;
+    height: 926px;
+    margin-left: 64px;
+  }
+}
+
+@media (min-width: 1440px) {
+  body #bg5-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: absolute;
+    top: 2328px;
+    width: 926px;
+    height: 926px;
+    margin-left: 276px;
   }
 }
 
@@ -135,6 +193,12 @@ main h2.section4__header--h2 {
 @media (min-width: 768px) {
   main h2.section4__header--h2 {
     line-height: 1.3;
+  }
+}
+
+@media (min-width: 1024px) {
+  main h2.section4__header--h2 {
+    margin-top: 0;
   }
 }
 
@@ -163,10 +227,24 @@ main .section4 {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     height: 512px;
+  }
+}
+
+@media (min-width: 1024px) {
+  main .section4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    height: 600px;
   }
 }
 
@@ -182,6 +260,12 @@ main .section4 .section4__img {
 @media (min-width: 768px) {
   main .section4 .section4__img {
     width: 320px;
+  }
+}
+
+@media (min-width: 1024px) {
+  main .section4 .section4__img {
+    width: 446px;
   }
 }
 
@@ -208,6 +292,14 @@ main .section4 .section4__text h6 {
   }
 }
 
+@media (min-width: 1024px) {
+  main .section4 .section4__text h6 {
+    line-height: 1.4;
+    font-size: 16px;
+    margin-bottom: 18px;
+  }
+}
+
 main .section4 .section4__ul {
   margin-top: 46px;
 }
@@ -221,7 +313,18 @@ main .section4 .section4__ul {
             flex-direction: row;
     width: 338px;
     margin-top: 28px;
-    margin-left: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  main .section4 .section4__ul {
+    display: block;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 430px;
+    margin-top: 28px;
   }
 }
 
@@ -246,11 +349,12 @@ main .section4 .section4__ul__il {
 main .section4 .section4__ul__p {
   font-size: 12px;
   margin-top: -10px;
+  color: #777777;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   main .section4 .section4__ul__p {
-    color: #777777;
+    margin-top: -4px;
   }
 }
 
@@ -279,5 +383,11 @@ main .section4 span {
   margin-right: 16px;
   width: 11px;
   height: 3px;
+}
+
+@media (min-width: 1024px) {
+  main .section4 span {
+    margin-top: 4px;
+  }
 }
 /*# sourceMappingURL=section4.css.map */

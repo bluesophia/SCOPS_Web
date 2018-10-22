@@ -12,10 +12,13 @@
     @include tablet {
         height: 215px;
     }
+    @include desktop {
+        height: 260px;
+    }
     .footer__column {
         @include tablet {
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
         }
     }
 
@@ -25,7 +28,11 @@
         text-align: center;
         p {
             @include tablet {
-                margin-top: 30px;
+                margin-top: 55px;
+            }
+            @include desktop {
+                margin-top: 62px;
+                font-size: 10px;
             }
         }
     }

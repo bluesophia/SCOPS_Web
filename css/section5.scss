@@ -12,6 +12,10 @@ main {
             height:512px;
             align-items: center;
         }
+        @include desktop {
+            height:600px;
+            align-items: center;
+        }
         .section5__ul {
             @include tablet {
                 display: flex;
@@ -25,6 +29,10 @@ main {
             @include tablet {
                 width: 570px;
                 height: 226px;
+            }
+            @include desktop {
+                width: 740px;
+                height: 300px;
             }
         }
         .section5__backgroundimg {
@@ -47,11 +55,20 @@ main {
                 @include tablet {
                     font-size: 26px;
                 }
+                @include desktop {
+                    font-size: 30px;
+                }
             }
             @include tablet {
                 margin-top: 0px;
                 margin-left: 0px;
                 width: 300px;
+                margin-bottom: 8px;
+            }
+            @include desktop {
+                margin-top: 0px;
+                margin-left: 0px;
+                width: 100%;
                 margin-bottom: 8px;
             }
         }

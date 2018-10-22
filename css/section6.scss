@@ -5,16 +5,28 @@ main{
         margin-left: 28px;
         font-size: $h2;
         line-height: 1.5;
+        @include desktop {
+            margin-left: 54px;
+        }
     }
     .section6__ul {
         height: 210px;
+        @include desktop {
+            height: 200px;
+        }
     }
     .section6__ul__il {
         display: flex;
+        @include desktop {
+            margin-bottom: 14px;
+        }
     }
     .section6__ul__p {
         font-size:12px;
         margin-top: -10px;
+        @include desktop {
+            color: color(grey2);
+        }
     }
     .section6 {
         padding: $padding;
@@ -22,17 +34,17 @@ main{
         flex-direction: column;
         height:667px;
         position: relative;
-
-        @include desktop {
-            display:flex;
-            flex-direction: column;
-        }
         @include tablet {
             display:flex;
             flex-direction: column;
             height:512px;
             justify-content: center;
             align-items: center;
+        }
+        @include desktop {
+            display:flex;
+            flex-direction: column;
+            height: 600px;
         }
         .section6__div {
             @include tablet {
@@ -41,6 +53,10 @@ main{
         }
         .section6__header {
             margin-top: -7px;
+            @include desktop {
+                width: 320px;
+                text-align: center;
+            }
         }
         span {
             background-color:color(yellow);
@@ -51,11 +67,19 @@ main{
         }
         .section6__img {
             margin-top: 15px;
+            @include desktop {
+                margin-top: 0px;
+            }
             img{
                 height: 148px;
                 margin-left: 24px;
                 @include tablet {
                     height: 206px;
+                    margin-top: 30px;
+                    margin-left: 0;
+                }
+                @include desktop {
+                    height: 268px;
                     margin-top: 30px;
                     margin-left: 0;
                 }
@@ -65,12 +89,28 @@ main{
             display: flex;
             justify-content: center;
             margin-bottom:20px;
+            @include desktop {
+                margin-left: -50px;
+            }
             h2{
                 color:color(grey1);
             }
             h6 {
                 color:color(grey2);
                 margin: 10px;
+                @include tablet{
+                    color:color(grey2);
+                    line-height: 1.4;
+                    font-size: 14px;
+                    margin-bottom: 18px;
+                    // margin-left:28px;
+                }
+                @include desktop{
+                    color:color(grey2);
+                    line-height: 1.4;
+                    font-size: $h5;
+                    margin-bottom: 18px;
+                }
             }
             ul {
                 display:flex;
@@ -90,7 +130,7 @@ main{
         .section6__column {
             @include tablet {
                 display: flex;
-                justify-content: space-between;
+                justify-content: space-around;
                 align-items: center;
             }
         }
@@ -118,6 +158,10 @@ main{
                 position: absolute;
                 margin-top: -50px;
                 z-index: -1;
+            }
+            @include desktop {
+                width: 92px;
+                height: 92px;
             }
         } 
         .btn {

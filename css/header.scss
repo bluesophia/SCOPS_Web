@@ -11,6 +11,25 @@ header {
             display: none;
         }
     }
+    .header__nav {
+        display: none; 
+        @include desktop {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    .header__nav__ul {
+        @include desktop {
+            display: flex;
+        }
+    }
+    .header__nav__ul li{
+        @include desktop {
+            margin-left: 37px;
+            font-size: $h6;
+            color: white;
+        }
+    } 
     .nav__img--mintlogo {
         width: 106px;
     }
@@ -18,9 +37,6 @@ header {
         width: 30px;
         background-image: url('../assets/img/mobile_home.svg');
         background-repeat: no-repeat;
-        // @include desktop {
-        //     // background-image: url('../assets/img/logo.png');
-        // }
         @include tablet {
         background-image: url('../assets/img/tablet_home.svg');
         background-repeat: no-repeat;
