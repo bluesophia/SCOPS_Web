@@ -121,7 +121,7 @@ body #bg5 {
 
 @media (min-width: 1024px) {
   body #bg5 {
-    background: url("../assets/img/tablet_section5imgL.svg");
+    background: url("../assets/img/tablet_section5img.svg");
     background-repeat: no-repeat;
     position: absolute;
     top: 2456px;
